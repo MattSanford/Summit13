@@ -4,12 +4,35 @@ margin:0;
 
 #container {
 background-color: red;
-margin: 0;
+margin: 0 0 0 0;
 }
 
 header {
-height: 200px;
+	min-height: 200px;
+	height: 200px;
 }
+	nav {
+
+	margin: 150px 2% 4% 30%;
+	background-color: teal;
+	display: inline;
+	}
+
+	nav a{
+	display: inline;
+	text-decoration: none;
+	color: black;
+	font-size: 28px;
+	padding: 10px;
+	}
+	
+	nav a:hover {
+	color: blue;
+	-webkit-transition-property: size;
+	-webkit-transition-duration: .5s;
+	height: 50px;
+	padding: 5px;
+	}
 
 ol {
 margin: 0;
@@ -44,17 +67,63 @@ color: black;
 background-color: blue;
 }
 
+#main {
+display: inline-block;
+
+}
+
+	#content {
+	height: 500px;
+	width: 600px;
+	margin: 0 3em 0 22	em;
+	background: black;
+	opacity: 0.8;
+	padding: 15px;
+	display: inline-block;
+	float: left;
+	}
+	
+	#content h3 {
+	color: white;
+	}
+
+	#content p {
+	color: white;
+	}
+
 #sidebar {
 height: 400px;
-width: 350px;
-float: right;
+width: 250px;
+position: relative;
+display: inline-block;
 margin: 50px 25px 0 0;
 background-color: teal;
 border-radius: 5px;
+border: 1px solid black;
 }
+	.pl {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin: 25px 10px 15px 15px;
+	border: 1px solid black;
+	}
 
 #sidebar-left {
 float: left;
-margin-left: 25px;
+position: absolute;
+top: 34%;
+left: 6%;
 display: inline-block;
+}
+
+#footer {
+max-height: 150px;
+height: 100%;
+background-color: black;
+opacity: 0.8;
+color: white;
+margin: 25px 0 0 0;
+border-radius: 5px 5px 0 0;
+text-align: center;
 }
