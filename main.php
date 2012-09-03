@@ -1,33 +1,33 @@
 <div id="wrapper">
 <div id="sidebar-left">
 		<div>
-	<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 <script>
 new TWTR.Widget({
   version: 2,
   type: 'profile',
-  rpp: 5,
+  rpp: 4,
   interval: 30000,
   width: 'auto',
   height: 300,
   theme: {
     shell: {
-      background: '#294e6b',
+      background: '#003366',
       color: '#ffffff'
     },
     tweets: {
       background: '#000000',
       color: '#ffffff',
-      links: '#07ebeb'
+      links: '#cc6600'
     }
   },
   features: {
     scrollbar: false,
     loop: false,
-    live: true,
+    live: false,
     behavior: 'all'
   }
-}).render().setUser('summiteast13').start();
+}).render().setUser('SummitEast13').start();
 </script>
 		</div>
 	</div>
