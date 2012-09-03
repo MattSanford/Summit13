@@ -1,7 +1,7 @@
 <html>
 <head>
-<link rel="stylesheet" href="normalize.css">
-<link rel="stylesheet" href="summit.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/summit.css">
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 </head>
 <body>
@@ -16,6 +16,23 @@
 <div id="container">
 
 <header>
+<ul id="checkout">
+			<li>
+			<span>Check us out on..</span>
+			<ul id="checkout-nav">
+				<li id="facebook">
+					<img class="icon" src="images/f_logo.png" />
+					<span>Facebook</span>
+					<p>Check out our page!</p>
+				</li>
+				<li id="twitter">
+					<img class="icon" src="images/twitter-bird-white-on-blue.png" />				
+					<span>Twitter</span>
+					<p>Follow Us on twitter!</p>
+				</li>
+			</ul>
+			</li>
+		</ul>
 	<ul id="top-nav">
 		<a href="index.php"><li>Home</li></a>
 		<a href="location.php"><li>Location</li></a>
@@ -26,7 +43,9 @@
 		<a href="things-to-do.php"><li>Things To Do</li></a>
 	</ul>
 </header>
+
 <div id="wrapper">
+		
 		<div id="sidebar-left">
 		<div>
 	<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
