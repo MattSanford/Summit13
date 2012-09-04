@@ -2,6 +2,7 @@
 <head>
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/summit.css">
+<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 </head>
 <body>
@@ -14,11 +15,10 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div id="container">
-
+<span id="imagine">imagine</span>
 <header>
 <ul id="checkout">
 			<li>
-			<span>Check us out on..</span>
 			<ul id="checkout-nav">
 				<a href="http://www.facebook.com/FoursquareSummitEast"target="blank"><li id="facebook">
 					<img class="icon" src="images/f_logo.png" />
@@ -48,33 +48,33 @@
 		
 		<div id="sidebar-left">
 		<div>
-	<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 <script>
 new TWTR.Widget({
   version: 2,
   type: 'profile',
-  rpp: 5,
+  rpp: 4,
   interval: 30000,
   width: 'auto',
   height: 300,
   theme: {
     shell: {
-      background: '#294e6b',
+      background: '#003366',
       color: '#ffffff'
     },
     tweets: {
       background: '#000000',
       color: '#ffffff',
-      links: '#07ebeb'
+      links: '#cc6600'
     }
   },
   features: {
     scrollbar: false,
     loop: false,
-    live: true,
+    live: false,
     behavior: 'all'
   }
-}).render().setUser('summiteast13').start();
+}).render().setUser('SummitEast13').start();
 </script>
 		</div>
 	</div>
