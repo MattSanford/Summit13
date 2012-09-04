@@ -2,6 +2,7 @@
 <head>
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/summit.css">
+<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 </head>
 <body>
@@ -14,11 +15,10 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div id="container">
-
+<span id="imagine">imagine</span>
 <header>
 <ul id="checkout">
 			<li>
-			<span>Check us out on..</span>
 			<ul id="checkout-nav">
 				<li id="facebook">
 					<img class="icon" src="images/f_logo.png" />
