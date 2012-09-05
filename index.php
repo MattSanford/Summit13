@@ -17,7 +17,21 @@
 <div id="container">
 <span id="imagine">imagine</span>
 <header>
-<ul id="checkout">
+
+	<ul id="top-nav">
+		<a href="index.php"><li>Home</li></a>
+		<a href="location.php"><li>Location</li></a>
+		<a href="cost.php"><li>Cost</li></a>
+		<a href="registration.php"><li>Registration</li></a>
+		<a href="transportation.php"><li>Transportation</li></a>
+		<a href="schedule.php"><li>Schedule</li></a>
+		<a href="things-to-do.php"><li>Things To Do</li></a>
+	</ul>
+	
+</header>
+
+<div id="wrapper">
+		<ul id="checkout">
 			<li>
 			<ul id="checkout-nav">
 				<a href="http://www.facebook.com/FoursquareSummitEast"target="blank"><li id="facebook">
@@ -33,19 +47,6 @@
 			</ul>
 			</li>
 		</ul>
-	<ul id="top-nav">
-		<a href="index.php"><li>Home</li></a>
-		<a href="location.php"><li>Location</li></a>
-		<a href="cost.php"><li>Cost</li></a>
-		<a href="registration.php"><li>Registration</li></a>
-		<a href="transportation.php"><li>Transportation</li></a>
-		<a href="schedule.php"><li>Schedule</li></a>
-		<a href="things-to-do.php"><li>Things To Do</li></a>
-	</ul>
-</header>
-
-<div id="wrapper">
-		
 		<div id="sidebar-left">
 		<div>
 <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
@@ -82,16 +83,14 @@ new TWTR.Widget({
 	<div id="social-bar">
 <!-- Place this tag where you want the +1 button to render. -->
 		<div class="g-plusone" data-size="medium"></div>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		<a href="https://twitter.com/intent/tweet?button_hashtag=FoursquareSummitEast&text=I%20am%20going%20to" class="twitter-hashtag-button" data-related="SummitEast13">Tweet #FoursquareSummitEast</a>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-text="I am going to" data-hashtags="FoursquareSummitEast">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		<div class="fb-like fb" data-href="http://www.facebook.com/FoursquareSummitEast" data-send="false" data-width="450" data-show-faces="false"></div>
-
 	</div>
 
 	<div id="content"></div>
 	<div class="bottombar">
-		<img class="pl" src="" />
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium dolor et neque tincidunt dictum. Phasellus tristique varius dignissim. Duis ut aliquam neque. Pellentesque molestie quam eget sem dignissim eleifend. Aliquam id massa sed ligula tempus pellentesque eu eget magna. Nulla sodales nisi eu mi molestie sit amet vehicula urna fringilla. Integer at neque sed arcu elementum fringilla at eget sapien. Nullam arcu augue, fringilla non tempus quis, dapibus non ligula.</p>
+		<img class="pl" src="" /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium dolor et neque tincidunt dictum. Phasellus tristique varius dignissim. Duis ut aliquam neque. Pellentesque molestie quam eget sem dignissim eleifend. Aliquam id massa sed ligula tempus pellentesque eu eget magna. Nulla sodales nisi eu mi molestie sit amet vehicula urna fringilla. Integer at neque sed arcu elementum fringilla at eget sapien. Nullam arcu augue, fringilla non tempus quis, dapibus non ligula.</p>
 </div>
 </div>
 </div>
