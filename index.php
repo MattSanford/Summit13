@@ -27,6 +27,7 @@
 		<a href="transportation.php"><li>Transportation</li></a>
 		<a href="schedule.php"><li>Schedule</li></a>
 		<a href="things-to-do.php"><li>Things To Do</li></a>
+		<a href="leaders.php"><li>For Leaders</li></a>		
 	</ul>
 	
 </header>
