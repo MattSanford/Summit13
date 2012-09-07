@@ -1,8 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/summit.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"  href="css/summit.css">
 <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 </head>
@@ -22,16 +21,13 @@
 	<ul id="top-nav">
 		<a href="index.php"><li>Home</li></a>
 		<a href="location.php"><li>Location</li></a>
-		<a href="cost.php"><li>Cost</li></a>
 		<a href="registration.php"><li>Registration</li></a>
-		<a href="transportation.php"><li>Transportation</li></a>
 		<a href="schedule.php"><li>Schedule</li></a>
 		<a href="things-to-do.php"><li>Things To Do</li></a>
 		<a href="leaders.php"><li>For Leaders</li></a>		
 	</ul>
-	
 </header>
-
+<iframe class="countdown" src="http://free.timeanddate.com/countdown/i39wpchv/n419/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cacf90/cpc000/pct/tcfff/fs100/szw320/szh135/tatCountdown%20to%20Summit/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2013-04-13T00:00:00/pa5" frameborder="0" width="207" height="59"></iframe>
 <div id="wrapper">
 		<ul id="checkout">
 			<li>
@@ -44,7 +40,7 @@
 				<a href="http://twitter.com/SummitEast13" target="blank"><li id="twitter">
 					<img class="icon" src="images/twitter-bird-white-on-blue.png" />				
 					<span>Twitter</span>
-					<p>Follow Us on twitter!</p>
+					<p>Follow Us on Twitter!</p>
 				</li></a>
 			</ul>
 			</li>
@@ -91,9 +87,13 @@ new TWTR.Widget({
 	</div>
 
 	<div id="content"></div>
+	
 	<div class="bottombar">
-		<img class="pl" src="" /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium dolor et neque tincidunt dictum. Phasellus tristique varius dignissim. Duis ut aliquam neque. Pellentesque molestie quam eget sem dignissim eleifend. Aliquam id massa sed ligula tempus pellentesque eu eget magna. Nulla sodales nisi eu mi molestie sit amet vehicula urna fringilla. Integer at neque sed arcu elementum fringilla at eget sapien. Nullam arcu augue, fringilla non tempus quis, dapibus non ligula.</p>
-</div>
+		<img class="pic left" src="" /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium dolor et neque tincidunt dictum. Phasellus tristique varius dignissim. Duis ut aliquam neque. Pellentesque molestie quam eget sem dignissim eleifend. Aliquam id massa sed ligula tempus pellentesque eu eget magna. Nulla sodales nisi eu mi molestie sit amet vehicula urna fringilla. Integer at neque sed arcu elementum fringilla at eget sapien. Nullam arcu augue, fringilla non tempus quis, dapibus non ligula.</p>
+	</div>
+	<div class="bottombar">
+		<img class="pic right" src="" /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium dolor et neque tincidunt dictum. Phasellus tristique varius dignissim. Duis ut aliquam neque. Pellentesque molestie quam eget sem dignissim eleifend. Aliquam id massa sed ligula tempus pellentesque eu eget magna. Nulla sodales nisi eu mi molestie sit amet vehicula urna fringilla. Integer at neque sed arcu elementum fringilla at eget sapien. Nullam arcu augue, fringilla non tempus quis, dapibus non ligula.</p>
+	</div>
 </div>
 </div>
 <div id="footer">
