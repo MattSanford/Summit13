@@ -10,7 +10,7 @@
 					<a href="http://twitter.com/SummitEast13" target="blank"><li id="twitter">
 						<img class="icon" src="images/twitter-bird-white-on-blue.png" />				
 						<span>Twitter</span>
-							<p>Follow Us on twitter!</p>
+							<p>Follow Us on Twitter!</p>
 					</li></a>
 				</ul>
 				</li>
