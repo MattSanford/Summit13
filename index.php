@@ -15,9 +15,13 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div id="container">
-<span id="imagine">imagine</span>
+	<div id="imagine-wrap">
+		<span id="imagine">imagine</span>
+		<span class="imagine-side">Foursquare Youth</span>
+		<span class="imagine-side">Summit East</span>
+	</div>
+<iframe class="countdown" src="http://free.timeanddate.com/countdown/i39wpchv/n419/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cacf90/cpc000/pct/tcfff/fs100/szw320/szh135/tatCountdown%20to%20Summit/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2013-04-13T00:00:00/pa5" frameborder="0" width="207" height="59"></iframe>
 <header>
-
 	<ul id="top-nav">
 		<a href="index.php"><li>Home</li></a>
 		<a href="location.php"><li>Location</li></a>
@@ -27,7 +31,6 @@
 		<a href="leaders.php"><li>For Leaders</li></a>		
 	</ul>
 </header>
-<iframe class="countdown" src="http://free.timeanddate.com/countdown/i39wpchv/n419/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cacf90/cpc000/pct/tcfff/fs100/szw320/szh135/tatCountdown%20to%20Summit/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2013-04-13T00:00:00/pa5" frameborder="0" width="207" height="59"></iframe>
 <div id="wrapper">
 		<ul id="checkout">
 			<li>
@@ -86,7 +89,16 @@ new TWTR.Widget({
 		<div class="fb-like fb" data-href="http://www.facebook.com/FoursquareSummitEast" data-send="false" data-width="450" data-show-faces="false"></div>
 	</div>
 
-	<div id="content"></div>
+	<div id="content">
+		<span class="bbspan">IMAGINE</span><span>...</span><p>Hundreds of Foursquare students and leaders from across the eastern part of the United States gathered together in one place at one time worshipping <span>ONE GOD!</span>
+</p><br/><br/>
+		<span class="bbspan">IMAGINE</span><span>...</span><p>An atmosphere so electric with the presence of <span>GOD</span> that you experience Him in a way that you never experienced Him before!</p><br/><br/>
+		<span class="bbspan">IMAGINE</span><span>...</span><p>Meeting other youth in the Foursquare family you would have never met before that could become lifelong friends!</p><br/><br/>
+		<span class="bbspan">IMAGINE</span><span>...</span><p>Having a weekend away in Baltimore that you were so excited to invite your friends to because you knew it was going to be a TON OF FUN and this was their opportunity to meet Jesus and be headed for eternal life!
+</p><br/><br/>
+		<span class="bbspan">IMAGINE</span><span>...</span><p>Being challenged in your own spiritual life to believe that God has plans for you that you could never even <span>IMAGINE…</span></p><br/><br/>
+
+	</div>
 	
 	<div class="bottombar">
 		<img class="pic left" src="" /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium dolor et neque tincidunt dictum. Phasellus tristique varius dignissim. Duis ut aliquam neque. Pellentesque molestie quam eget sem dignissim eleifend. Aliquam id massa sed ligula tempus pellentesque eu eget magna. Nulla sodales nisi eu mi molestie sit amet vehicula urna fringilla. Integer at neque sed arcu elementum fringilla at eget sapien. Nullam arcu augue, fringilla non tempus quis, dapibus non ligula.</p>
