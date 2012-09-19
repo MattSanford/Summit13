@@ -19,8 +19,11 @@
 <div id="container">
 	<div id="imagine-wrap">
 	</div>
-<iframe class="countdown" src="http://free.timeanddate.com/countdown/i39wpchv/n419/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cacf90/cpc000/pct/tcfff/fs100/szw320/szh135/tatCountdown%20to%20Summit/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2013-04-13T00:00:00/pa5" frameborder="0" width="207" height="59"></iframe>
 <header>
+				<a href="http://www.brightworkband.com/" target="blank"><div id="brightwork">				
+					<span>Leading Worship is...</span>
+					<h2>Brightwork</h2>
+				</div></a>
 	<ul id="top-nav">
 		<a href="index.php"><li>Home</li></a>
 		<a href="location.php"><li>Location</li></a>
@@ -44,10 +47,9 @@
 					<span>Twitter</span>
 					<p>Follow Us on Twitter!</p>
 				</li></a>
-				<a href="http://www.brightworkband.com/" target="blank"><li id="brightwork">				
-					<span>Leading Worship is...</span>
-					<h2>Brightwork</h2>
-				</li></a>
+				<li id="countdown">
+<iframe class="countdown" src="http://free.timeanddate.com/countdown/i39wpchv/n419/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cacf90/cpc000/pct/tcfff/fs100/szw320/szh135/tatCountdown%20to%20Summit/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2013-04-13T00:00:00/pa5" frameborder="0" width="207" height="59"></iframe>
+				</li>
 			</ul>
 			</li>
 		</ul>
