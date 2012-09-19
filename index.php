@@ -3,6 +3,8 @@
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet"  href="css/summit.css">
 <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700' rel='stylesheet' type='text/css'>
+
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 </head>
 <body>
@@ -16,9 +18,6 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 <div id="container">
 	<div id="imagine-wrap">
-		<span id="imagine">imagine</span>
-		<span class="imagine-side">Foursquare Youth</span>
-		<span class="imagine-side">Summit East</span>
 	</div>
 <iframe class="countdown" src="http://free.timeanddate.com/countdown/i39wpchv/n419/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cacf90/cpc000/pct/tcfff/fs100/szw320/szh135/tatCountdown%20to%20Summit/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2013-04-13T00:00:00/pa5" frameborder="0" width="207" height="59"></iframe>
 <header>
@@ -44,6 +43,10 @@
 					<img class="icon" src="images/twitter-bird-white-on-blue.png" />				
 					<span>Twitter</span>
 					<p>Follow Us on Twitter!</p>
+				</li></a>
+				<a href="http://www.brightworkband.com/" target="blank"><li id="brightwork">				
+					<span>Leading Worship is...</span>
+					<h2>Brightwork</h2>
 				</li></a>
 			</ul>
 			</li>
@@ -86,7 +89,7 @@ new TWTR.Widget({
 		<div class="g-plusone" data-size="medium"></div>
 		<a href="https://twitter.com/share" class="twitter-share-button" data-text="I am going to" data-hashtags="FoursquareSummitEast">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		<div class="fb-like fb" data-href="http://www.facebook.com/FoursquareSummitEast" data-send="false" data-width="450" data-show-faces="false"></div>
+	<div class="fb-like" data-href="http://www.facebook.com/FoursquareSummitEast" data-send="true" data-width="450" data-show-faces="false"></div>
 	</div>
 
 	<div id="content">
