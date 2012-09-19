@@ -18,10 +18,11 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 <div id="container">
 	<header>
-				<a href="http://www.brightworkband.com/" target="blank"><div id="brightwork">				
-					<span>Leading Worship is...</span>
-					<h2>Brightwork</h2>
-				</div></a>
+		<a href="http://www.brightworkband.com/" target="blank">
+		<div id="brightwork" class="header-section">				
+			<span>Leading Worship is...</span>
+			<h2>Brightwork</h2>
+		</div></a>
 		<ul id="top-nav">
 		<a href="index.php"><li>Home</li></a>
 		<a href="location.php"><li>Location</li></a>
@@ -30,4 +31,9 @@
 		<a href="things-to-do.php"><li>Things To Do</li></a>
 		<a href="leaders.php"><li>For Leaders</li></a>		
 	</ul>
+		<a href="http://www.cornelljordan.com/" target="blank"><div id="cj" class="header-section">
+			<div id="cj-text-wrap"
+			<span>Special Guest Speaker:<br /><br/><span class="cj-span">Cornell Jordan</span></span>
+			</div>
+		<div></a>
 	</header>
