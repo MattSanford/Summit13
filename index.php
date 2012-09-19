@@ -102,7 +102,7 @@ new TWTR.Widget({
 		<span class="bbspan">IMAGINE</span><span>...</span><p>Meeting other youth in the Foursquare family you would have never met before that could become lifelong friends!</p><br/><br/>
 		<span class="bbspan">IMAGINE</span><span>...</span><p>Having a weekend away in Baltimore that you were so excited to invite your friends to because you knew it was going to be a TON OF FUN and this was their opportunity to meet Jesus and be headed for eternal life!
 </p><br/><br/>
-		<span class="bbspan">IMAGINE</span><span>...</span><p>Being challenged in your own spiritual life to believe that God has plans for you that you could never even <span>IMAGINE…</span></p><br/><br/>
+		<span class="bbspan">IMAGINE</span><span>...</span><p>Being challenged in your own spiritual life to believe that God has plans for you that you could never even <span>IMAGINE!</span></p><br/><br/>
 
 	</div>
 	
