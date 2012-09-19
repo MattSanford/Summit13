@@ -27,6 +27,14 @@ body {
 margin:0;
 }
 
+@font-face {
+font-family:'LeagueGothicRegular';
+src: url("/LeagueGothic/leaguegothic-regular-webfont.woff");
+src: url("/LeagueGothic/leaguegothic-regular-webfont.tff");
+src: url("/LeagueGothic/leaguegothic-regular-webfont.svg");
+src: url("/LeagueGothic/leaguegothic-regular-webfont.eot");
+}
+
 #container {
 background-image: url("/images/brickwall.jpg");
 background-size: 100% 100%;
@@ -50,6 +58,7 @@ and (min-width : 1650px) {
 	font-family: 'Anton', sans-serif;
 	z-index: 0;
 	text-shadow: -2px -5px 8px rgba(255, 255, 255, 1);
+	background-image: url("/images/Summit Header.jpg")
 	}
 	
 	
@@ -69,7 +78,9 @@ and (max-width : 1649px) {
 	border: 1px solid white;
 	display: inline-block;
 	margin: 25px 25px 50px 37%;
-
+	background-image: url("/images/Summit Header.jpg");
+	background-size: 100% 100%;
+	display: none;
 
 	}
 	
@@ -166,6 +177,7 @@ header {
 		background-color: white;
 		opacity: 0.9;
 		}
+		
 		#checkout-nav li:hover {
 		opacity: 1;
 		}		
@@ -181,14 +193,35 @@ header {
 			margin: 0 0 5px 0;
 			}
 			
-			#twitter 
-			span,
+			#twitter span,
 			 #twitter p{
 			margin:0 0 5px 0;
 			color: #4099FF;
 			display: inline-block;
 			}
 		
+		
+			#brightwork {
+			height: 150px !important;
+			background-color: black !important;
+			font-family: 'Yanone Kaffeesatz', sans-serif;
+			}
+
+			
+			#brightwork h2{
+			font-size: 48px;
+			font-weight: normal;
+			font-style: normal;
+			padding: 0;
+			margin: 25px 0 0 0;
+			text-transform: uppercase;
+			}
+			
+			#brightwork:hover {
+			background-color: white !important;
+			color: black;
+			}
+			
 			.icon {
 			height: 34px;
 			width: 34px;
@@ -200,7 +233,7 @@ header {
 	
 	
 	#top-nav {
-	margin: 0 0 0 0;
+	margin: 0 0 0 0 !important;
 	opacity: 0.95;
 	list-style: none;
 	display: inline-block;
@@ -248,7 +281,7 @@ header {
 and (min-width : 900px)
 and (max-width : 1370px) {
 #top-nav {
-	margin: 0 0 0 0;
+	margin: 0 0 0 0 !important;
 	opacity: 0.95;
 	list-style: none;
 	display: inline-block;
@@ -383,8 +416,7 @@ padding:  0 4% 0 4%;
 
 	#main {
 	display: inline-block;
-	background-color: #CCC;
-	opacity: 0.95; 
+	background-color: #CCC; 
 	margin: 0 2% 0 50px;
 	max-width: 750px;
 	display: inline-block;
@@ -395,7 +427,7 @@ padding:  0 4% 0 4%;
 	}
 	
 	#content {
-	height: 500px;
+	height: 500px auto;
 	width: 700px;
 	margin: 0 10px 0em 10px;
 	background: black;
@@ -423,6 +455,11 @@ padding:  0 4% 0 4%;
 		.bbspan {
 		font-size: 17px;
 		font-weight: bold;
+		}
+		
+		#content img {
+		margin-top: 25px;
+		border: 1px solid white;
 		}
 
 /* Desktops and laptops ----------- */

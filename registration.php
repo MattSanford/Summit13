@@ -18,7 +18,7 @@
 			<li><span>Early Bird: $165 (room+tax) + $75 (registration) = $240</span></li>
 			<li><span>Regular: $165 (room+tax)  + $80 (registration) = $245</span></li>
 		</ul>
-
+		<img src="http://www3.hilton.com/resources/media/hi/BWICCHH/en_US/img/shared/full_page_image_gallery/main/hh_keyballroom_5_675x359_FitToBoxSmallDimension_Center.jpg" />
 	</div>
 	<div class="bottombar">
 		<img class="pic left" src="" />
