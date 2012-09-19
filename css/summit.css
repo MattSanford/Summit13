@@ -129,7 +129,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfff670f', e
 
 header {
 	max-height: 200px;
-	padding: 3% 7% 0 25%;
+	padding: 3% 7% 0 21%;
 	margin-bottom: 100px;
 }
 
@@ -377,7 +377,7 @@ padding:  0 18% 0 18%;
 and (min-width : 1150px)
 and (max-width : 1650px) {
 #wrapper {
-padding:  0 10% 0 10%;
+padding:  0 10% 0 6%;
 }
 }
 
