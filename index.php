@@ -85,17 +85,15 @@ new TWTR.Widget({
 		</div>
 	</div>
 	<div id="featuring">
-	<a href="http://www.brightworkband.com/" target="blank"><div class="featuring-section brightwork">				
-		<span>Leading Worship is...</span>
-		<h2>Brightwork</h2>
-	</div></a>
+	<div class="featuring-section brightwork">
+	<img src="" class="pic left" />
+	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+	</div>
 	
-	<span class="featuring-text">Featuring!</span>
-	
-		<a href="http://www.cornelljordan.com/" target="blank"><div  class="featuring-section cj">
-			<div id="cj-text-wrap">
+		<div  class="featuring-section cj">
+			<img src="" class="pic right" />
+
 			<span>Special Guest Speaker:<br /><br/><span class="cj-span">Cornell Jordan</span></span>
-			</div>
 		</div></a>	
 		</div>
 <div id="main">

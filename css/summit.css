@@ -18,7 +18,7 @@ h6 {
 margin-bottom: 5px;
 }
 
-span {
+span, p {
 display: inline-block;
 }
 
@@ -118,11 +118,11 @@ header {
 		
 			.featuring-section {
 			height: 150px;
-			display: inline-block;
 			color: white;
 			padding: 10px;
 			border-radius: 5px;
-			width: 250px;
+			width: 100%;
+			margin-bottom: 2%;
 			}
 		
 			.featuring-text {
@@ -132,17 +132,18 @@ header {
 			font-family: helvetica, sans-serif;
 			text-shadow: 3px 2px 4px rgba(0, 28, 255, 1);
 			}
-		
-			#featuring div {
-			vertical-align: top;
-			}		
+			
+			
+			#featuring {
+			margin: 0 0 5% 20.5%;
+			max-width: 58.5%;
+			display: block;
+			}
 			
 
 		
 			.cj {
-			background-image: url("../images/CJM_Promo_Pictures/cornelljordan-promopix4.jpg");
-			background-size: 100% 100%;	
-			margin-left: 2%;
+			background-color: white;
 				}
 
 		
@@ -162,11 +163,9 @@ header {
 				}
 		
 			.brightwork {
-			background-color: black !important;
+			background-color: #C59C71;
 			font-family: 'Yanone Kaffeesatz', sans-serif;
 			border: 2px solid black;
-			margin: 0 2% 25px 4%;
-			text-align: center;
 			}
 			
 			.brightwork h2{
@@ -178,12 +177,13 @@ header {
 			text-transform: uppercase;
 			}
 			
-			.brightwork:hover {
-			background-color: white !important;
-			color: black;
-			height: 148px;
-			
-			}
+				.bwk-pic {
+				height: 80%;
+				width: 20%;
+				margin: 0 4% 2% 0;
+				float: right;
+				display: inline-block;
+				}
 			
 			.icon {
 			height: 34px;
@@ -259,7 +259,7 @@ margin-left: 6%;
 	
 	#social-bar {
 	padding: 10px 0px 10px 10px;
-	display: block;
+	display: inline-block;
 	}
 		
 		.twitter-hashtag-button {
@@ -270,7 +270,7 @@ margin-left: 6%;
 	display: inline-block;
 	background-color: #CCC; 
 	margin: 0 2% 0 50px;
-	max-width: 750px;
+	max-width: 60%;
 	display: inline-block;
 	-webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
 	-moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
@@ -280,7 +280,7 @@ margin-left: 6%;
 	
 	#content {
 	height: 500px auto;
-	width: 700px;
+	width: 93%;
 	margin: 0 10px 0em 10px;
 	background: black;
 	opacity: 0.8;
