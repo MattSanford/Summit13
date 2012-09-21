@@ -32,7 +32,9 @@
 
 </header>
 <div id="wrapper">
-		<ul id="checkout">
+
+		<div id="sidebar-left">
+				<ul id="checkout">
 			<li>
 			<ul id="checkout-nav">
 				<li id="countdown">
@@ -52,7 +54,6 @@
 			</ul>
 			</li>
 		</ul>
-		<div id="sidebar-left">
 		<div>
 <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 <script>
