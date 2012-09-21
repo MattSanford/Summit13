@@ -35,7 +35,7 @@ src: url("/LeagueGothic/leaguegothic-regular-webfont.eot");
 }
 
 #container {
-background-image: url("/images/brickwall.jpg");
+background-image: url("../images/brickwall.jpg");
 background-size: 100% 100%;
 margin: 0 0 0 0;
 -moz-box-shadow: inset 0 0 30px 30px #000;
@@ -47,9 +47,9 @@ box-shadow: inset 0 0 30px 30px #000;
 
 
 header {
-	max-height: 200px;
+	max-height: 100px;
+	height: 50%;
 	padding: 3% 4% 0 6%;
-	margin-bottom: 25px;
 }
 
 
@@ -116,46 +116,60 @@ header {
 			display: inline-block;
 			}
 		
-			.header-section {
+			.featuring-section {
 			height: 150px;
 			display: inline-block;
 			color: white;
 			padding: 10px;
 			border-radius: 5px;
+			width: 250px;
 			}
 		
-			#cj {
-			float: right;
-			background-image: url("/images/CJM_Promo_Pictures/cornelljordan-promopix4.jpg");
-			background-size: 100% 100%;	
-			width: 200px;
+			.featuring-text {
+			color: white;
+			font-size: 28px;
+			font-weight: bold;
+			font-family: helvetica, sans-serif;
+			text-shadow: 3px 2px 4px rgba(0, 28, 255, 1);
 			}
+		
+			#featuring div {
+			vertical-align: top;
+			}		
+			
+
+		
+			.cj {
+			background-image: url("../images/CJM_Promo_Pictures/cornelljordan-promopix4.jpg");
+			background-size: 100% 100%;	
+			margin-left: 2%;
+				}
+
 		
 				#cj-text-wrap{
 				width: 100px;
 				}
 				
-				#cj span{
+				.cj span{
 				font-size: 22px;
 				font-family: 'Arial';
+				color: #003366;
 				}
 				
-				#cj a {
+				.cj a {
 				color: #003366;
 				text-decoration: none;
 				}
 		
-			#brightwork {
+			.brightwork {
 			background-color: black !important;
 			font-family: 'Yanone Kaffeesatz', sans-serif;
 			border: 2px solid black;
-			margin-right: 15px;
-
+			margin: 0 2% 25px 4%;
+			text-align: center;
 			}
-
-		
 			
-			#brightwork h2{
+			.brightwork h2{
 			font-size: 48px;
 			font-weight: normal;
 			font-style: normal;
@@ -164,7 +178,7 @@ header {
 			text-transform: uppercase;
 			}
 			
-			#brightwork:hover {
+			.brightwork:hover {
 			background-color: white !important;
 			color: black;
 			height: 148px;
@@ -182,7 +196,7 @@ header {
 	
 	
 	#top-nav {
-	margin: 0 0 0 35px !important;
+	margin: 0 0 0 21% !important;
 	opacity: 0.95;
 	list-style: none;
 	display: inline-block;
