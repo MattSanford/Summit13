@@ -1,12 +1,7 @@
 <div id="wrapper">
 
 		<div id="sidebar-left">
-				<ul id="checkout">
-			<li>
 			<ul id="checkout-nav">
-				<li id="countdown">
-<iframe class="countdown" src="http://free.timeanddate.com/countdown/i39wpchv/n419/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cacf90/cpc000/pct/tcfff/fs100/szw320/szh135/tatCountdown%20to%20Summit/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2013-04-13T00:00:00/pa5" frameborder="0" width="207" height="59"></iframe>
-				</li>
 				<a href="http://www.facebook.com/FoursquareSummitEast"target="blank"><li id="facebook">
 					<img class="icon" src="images/f_logo.png" />
 					<span>Facebook</span>
@@ -17,11 +12,12 @@
 					<span>Twitter</span>
 					<p>Follow Us on Twitter!</p>
 				</li></a>
-
+				<li id="countdown">
+					<iframe class="countdown" src="http://free.timeanddate.com/countdown/i39wpchv/n419/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cacf90/cpc000/pct/tcfff/fs100/szw320/szh135/tatCountdown%20to%20Summit/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2013-04-13T00:00:00/pa5" frameborder="0" width="207" height="59"></iframe>
+				</li>
 			</ul>
-			</li>
-		</ul>
-		<div>
+
+		<div class="t">
 <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 <script>
 new TWTR.Widget({
@@ -52,7 +48,7 @@ new TWTR.Widget({
 </script>
 		</div>
 	</div>
-<div class="main2">
+<div id="main" class="main2">
 	<div id="social-bar">
 <!-- Place this tag where you want the +1 button to render. -->
 		<div class="g-plusone" data-size="medium"></div>
