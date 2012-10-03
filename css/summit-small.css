@@ -1,3 +1,5 @@
+
+
 span,
 li,
 a,
@@ -8,7 +10,6 @@ h3,
 h4,
 h5,
 h6 {
-color: white;
 }
 h1,
 h2,
@@ -19,95 +20,143 @@ h6 {
 margin-bottom: 5px;
 }
 
+		.pic {
+		height: 125px;
+		width: 125px;
+		margin: 5px;
+		display: inline-block;
+		margin: 25px 10px 15px 15px;
+		border: 1px solid black;
+		border-radius: 5px;
+		}
+		
+		.left {
+		float: left
+		}
+		
+		.right {
+		float: right;
+		}
+
 body {
 margin:0;
+overflow-x: scroll;
+}
+
+
+
+
+
+@font-face {
+font-family:'LeagueGothicRegular';
+src: url("/LeagueGothic/leaguegothic-regular-webfont.woff");
+src: url("/LeagueGothic/leaguegothic-regular-webfont.tff");
+src: url("/LeagueGothic/leaguegothic-regular-webfont.svg");
+src: url("/LeagueGothic/leaguegothic-regular-webfont.eot");
 }
 
 #container {
-background-image: url("/images/brickwall.jpg");
+background-image: url("../images/brickwall.jpg");
 background-size: 100% 100%;
 margin: 0 0 0 0;
 -moz-box-shadow: inset 0 0 30px 30px #000;
 -webkit-box-shadow: inset 0 0 30px 30px #000;
 box-shadow: inset 0 0 30px 30px #000;
+padding: 0 2% 0 2%;
 }
-	#imagine {
-	position: relative;
-	color: black;
-	margin-top: 10%;
-	margin-left: 30%;
-	font-size: 150px;
-	font-family: 'Anton', sans-serif;
-	z-index: 0;
-	text-shadow: -2px -5px 8px rgba(255, 255, 255, 1);
-	-webkit-transform: rotate(350deg) ;
-	-moz-transform: rotate(350deg) ;
-	-o-transform: rotate(350deg) ;
-	}
+
+/* Desktops and laptops ----------- */
 
 
 header {
-	max-height: 200px;
-	padding: 3% 7% 0 10%;
-	margin-bottom: 100px;
-}
-	#checkout {
-	width: 220px;
-	float: left;
-	display: inline-block;
-	padding: 0;
-	margin: 0 0 0 0;
+text-align: center;
+	max-height: 100px;
+	height: 50%;
 	text-align: center;
-	position: relative;
-	vertical-align: top;
+	padding: 3% 4% 0 6%;
+}
 
-	}
-	
-	#checkout li {
-	display: block;
-	}
 
-		#checkout-nav {
-		opacity: 1;
-		list-style-type: none;
-		text-decoration: none;
-		display: inline-block;
-		margin: 0;
-		padding:0;
-		}
-		#checkout-nav li {
-		height: 50px;
-		width: 200px;
-		border: 1px solid black;
-		border-radius: 5px;
-		margin-top: 15px;
-		padding: 10px 0 0 10px;
-		background-color: white;
-		opacity: 0.9;
-		}
-		#checkout-nav li:hover {
-		opacity: 1;
-		}		
-			#checkout-nav span {
-			margin-top: 10px;
-			display: inline;
-			font-size: 20px;
-			}
-			
-			#facebook span, #facebook p{
-			color: #3B5998; 
-			display: inline-block;
-			margin: 0 0 5px 0;
-			}
-			
-			#twitter 
-			span,
-			 #twitter p{
-			margin:0 0 5px 0;
-			color: #4099FF;
-			display: inline-block;
-			}
+
+
+
 		
+			#featuring {
+			margin: 2% 0 0 0%;
+			width: 50%;
+			display: inline-block;
+			text-align: center;
+			}
+					
+		
+				.featuring-section {
+				height: 150px auto;
+				color: white;
+				padding: 10px;
+				border-radius: 5px;
+				margin-bottom: 2%;
+				text-align: left;
+				}
+			
+				.featuring-text {
+				color: white;
+				font-size: 28px;
+				font-weight: bold;
+				font-family: helvetica, sans-serif;
+				text-shadow: 3px 2px 4px rgba(0, 28, 255, 1);
+				}
+			
+		
+		
+					.cj {
+					background-color: #46413B;
+						}			
+		
+					.cj img{
+					width:150px;
+					}
+			
+					#cj-text-wrap{
+					width: 100px;
+					}
+					
+					.cj p{
+					line-height: 22px;
+					font-family: Arial, Helvetica, sans-serif;
+					color: white;
+					}
+					
+					.cj h2 {
+					color: #989377;
+					font-family: Georgia, Times New Roman, Times, Serif;
+					text-transform: uppercase;
+					}
+					
+					.cj a {
+					color: #003366;
+					text-decoration: none;
+					}
+			
+				.brightwork {
+				background-color: #C59C71;
+				font-family:  sans-serif;
+				color: white;
+				}
+				
+				.brightwork h2{
+				font-size: 48px;
+				font-weight: normal;
+				font-style: normal;
+				padding: 0;
+				margin: 25px 0 0 0;
+				text-transform: uppercase;
+				}
+			
+			
+				.brightwork span, .brightwork p, cj span, cj p{
+				font-size: 18px;
+				}
+			
 			.icon {
 			height: 34px;
 			width: 34px;
@@ -119,8 +168,8 @@ header {
 	
 	
 	#top-nav {
-	margin: 0 0 0 0;
 	opacity: 0.95;
+	margin-left: 5%;
 	list-style: none;
 	display: inline-block;
 	border-radius: 10px;
@@ -133,7 +182,7 @@ header {
 		#top-nav li {
 		display: inline;
 		color: white;
-		font-size: 28px;
+		font-size: 22px;
 		padding: 10px;
 		height: 50px;
 		width: 100px;
@@ -160,84 +209,123 @@ header {
 		-moz-box-shadow:    0px 1px 30px rgba(255, 139, 26, 1);
 		box-shadow:         0px 1px 30px rgba(255, 139, 26, 1);	
 	}
-
-
-#button-nav {
-text-decoration: none;
-list-style: none;
-display: inline-block;
--webkit-margin-before: 0px;
--webkit-margin-after: 0px;
-margin: 0px 0 0 12%;
-}
-
-#button-nav li{
-margin:0 0 10px 0;
-height: 100px;
-width: 300px;
-border-radius: 5px;
-background-color: teal;
-opacity: 0.8;
-text-align: center;
-padding: 10px;
-}
-
-#button-nav a{
-text-decoration: none;
-color: black;
-}
-
-#button-nav li:hover {
-background-color: blue;
-}
-
+	
+	
 #wrapper {
-padding:  0 10% 0 10%;
+margin: 0 1% 0 3.5%;
+
 }
+
+
 
 	#sidebar-left {
-	float: left;
 	clear: left;
 	display: inline-block;
+	vertical-align: top;
 	width: 220px;
-	margin: 50px 0 15px 0;
-	-webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
-	-moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
-	box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
+	margin: 0 0 15px 0;
 	border-radius: 5px;
 	}
+	
+	.t  {
+-webkit-box-shadow: 0px 0px 30px rgba(255, 95, 0, 0.75);
+-moz-box-shadow:    0px 0px 30px rgba(255, 95, 0, 0.75);
+box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
+	}
+
+
+		#checkout-nav {
+		opacity: 1;
+		text-decoration: none;
+		display: inline-block;
+		margin: 0 0 25px 0;
+		padding:0;
+		}
+		
+		.countdown {
+		margin-top: -10px;
+		margin-left: -10px;
+		}
+		
+		#checkout-nav li {
+		height: 50px;
+		width: 200px;
+		border: 1px solid black;
+		border-radius: 5px;
+		margin-top: 15px;
+		display: inline-block;
+		padding: 10px 0 0 10px;
+		background-color: white;
+		opacity: 0.9;
+		}
+		
+		#checkout-nav li:hover {
+		opacity: 1;
+		}		
+		
+		#checkout-nav li:nth-child(1) {
+		padding: 5px 5px 7px 5px;
+		}
+			#checkout-nav span {
+			margin-top: 10px;
+			display: inline;
+			font-size: 20px;
+			}
+			
+			#facebook span, #facebook p{
+			color: #3B5998; 
+			display: inline-block;
+			margin: 0 0 5px 0;
+			}
+			
+			#twitter span,
+			 #twitter p{
+			margin:0 0 5px 0;
+			color: #4099FF;
+			display: inline-block;
+			}
 	
 	#social-bar {
 	padding: 10px 0px 10px 10px;
-	display: block;
-	
+	display: inline-block;
 	}
-		.fb {
-		margin-left: 20px !important;
-		}
 		
 		.twitter-hashtag-button {
-		margin-top: 10px !important;
+		margin:0 12px 0 -10px !important;
 		}
 
 	#main {
-	display: inline-block;
-	background-color: #CCC;
-	opacity: 0.95; 
-	margin: 0 2% 0 50px;
-	max-width: 750px;
+	background-color: #CCC; 
+	margin: 0 2% 0 2%;
+	max-width: 900px;
+	width: 70%;
 	display: inline-block;
 	-webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
 	-moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
 	box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
 	border-radius: 5px;
+		padding: 10px;
+
 	}
-
-
+	
+	.main2 {
+	margin: 0 2% 0 5% !important;
+	vertical-align: top;
+	background-color: #CCC; 
+	max-width: 900px;
+	width: 60%;
+	display: inline-block;
+	-webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
+	box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
+	border-radius: 5px;
+	padding: 10px;
+	}
+	
 	#content {
-	height: 500px;
-	width: 700px;
-	margin: 0 10px 0em 10px;
+	height: 500px auto;
+	width: 96.5%;
+	vertical-align: middle;
 	background: black;
 	opacity: 0.8;
 	padding: 15px;
@@ -247,8 +335,7 @@ padding:  0 10% 0 10%;
 	-moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
 	box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
 	}
-	
-		#content h3 {
+				#content h3 {
 		color: white;
 		}
 	
@@ -258,7 +345,19 @@ padding:  0 10% 0 10%;
 
 		#content p {
 		color: white;
+		display: inline;
 		}
+		
+		.bbspan {
+		font-size: 17px;
+		font-weight: bold;
+		}
+		
+		#content img {
+		margin-top: 25px;
+		border: 1px solid white;
+		}
+
 
 	.bottombar {
 	height: 200px auto;
@@ -266,22 +365,13 @@ padding:  0 10% 0 10%;
 	padding: 15px;
 	position: relative;
 	border: 1px solid black;
-	margin: 25px 0 25px 25px;
+	margin: 15px 0 25px 15px;
 	display: block;	
 	border-radius: 5px;
 	-webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
 	-moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
 	box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
 	}
-	
-		.pl {
-		height: 100px;
-		width: 100px;
-		display: inline-block;
-		float: left;
-		margin: 25px 10px 15px 15px;
-		border: 1px solid black;
-		}
 	
 
 	#footer {
@@ -294,3 +384,5 @@ padding:  0 10% 0 10%;
 	border-radius: 5px 5px 0 0;
 	text-align: center;
 	}
+}
+}
