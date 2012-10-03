@@ -20,12 +20,12 @@
 <header>
 
 	<ul id="top-nav">
-		<a href="index.php"><li>Home</li></a>
-		<a href="location.php"><li>Location</li></a>
-		<a href="registration.php"><li>Registration</li></a>
-		<a href="schedule.php"><li>Schedule</li></a>
-		<a href="things-to-do.php"><li>Things To Do</li></a>
-		<a href="leaders.php"><li>For Leaders</li></a>		
+		<li><a href="index.php">Home</a></li>
+		<li class="right-item"><a href="location.php" ">Location</a></li>
+		<li><a href="registration.php">Registration</a></li>
+		<li class="right-item"><a href="schedule.php">Schedule</a></li>
+		<li><a href="things-to-do.php">Activities</a></li>
+		<li class="right-item"><a href="leaders.php">Leaders</a></li>		
 	</ul>
 
 </header>
@@ -79,18 +79,6 @@ new TWTR.Widget({
 </script>
 		</div>
 	</div>
-	<div id="featuring">
-	<div class="featuring-section brightwork">
-	<img src="images/BWK-Loving-Rescue-Cover-square.jpg" class="pic left" />
-<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-	</div>
-	
-		<div  class="featuring-section cj">
-			<img src="images/CJM_Promo_Pictures/cornelljordan-promopix4.jpg" class="pic right" />
-			<h2>Cornell Jordan</h2>
-<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>		
-</div>
-		</div>
 <div id="main">
 	<div id="social-bar">
 <!-- Place this tag where you want the +1 button to render. -->
@@ -117,6 +105,12 @@ new TWTR.Widget({
 	<div class="bottombar">
 		<img class="pic right" src="" /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium dolor et neque tincidunt dictum. Phasellus tristique varius dignissim. Duis ut aliquam neque. Pellentesque molestie quam eget sem dignissim eleifend. Aliquam id massa sed ligula tempus pellentesque eu eget magna. Nulla sodales nisi eu mi molestie sit amet vehicula urna fringilla. Integer at neque sed arcu elementum fringilla at eget sapien. Nullam arcu augue, fringilla non tempus quis, dapibus non ligula.</p>
 	</div>
+	<div class="bottombar brightwork">
+		<img src="images/BWK-Loving-Rescue-Cover-square.jpg" class="pic left" /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium dolor et neque tincidunt dictum. Phasellus tristique varius dignissim. Duis ut aliquam neque. Pellentesque molestie quam eget sem dignissim eleifend. Aliquam id massa sed ligula tempus pellentesque eu eget magna. Nulla sodales nisi eu mi molestie sit amet vehicula urna fringilla. Integer at neque sed arcu elementum fringilla at eget sapien. Nullam arcu augue, fringilla non tempus quis, dapibus non ligula.</p>
+	</div>
+	<div class="bottombar cj">
+		<img src="images/CJM_Promo_Pictures/cornelljordan-promopix4.jpg" class="pic right" /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium dolor et neque tincidunt dictum. Phasellus tristique varius dignissim. Duis ut aliquam neque. Pellentesque molestie quam eget sem dignissim eleifend. Aliquam id massa sed ligula tempus pellentesque eu eget magna. Nulla sodales nisi eu mi molestie sit amet vehicula urna fringilla. Integer at neque sed arcu elementum fringilla at eget sapien. Nullam arcu augue, fringilla non tempus quis, dapibus non ligula.</p>
+	</div>	
 </div>
 </div>
 <div id="footer">

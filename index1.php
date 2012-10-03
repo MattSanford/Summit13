@@ -25,8 +25,8 @@
 		<a href="location.php"><li>Location</li></a>
 		<a href="registration.php"><li>Registration</li></a>
 		<a href="schedule.php"><li>Schedule</li></a>
-		<a href="things-to-do.php"><li>Things To Do</li></a>
-		<a href="leaders.php"><li>For Leaders</li></a>		
+		<a href="things-to-do.php"><li>Activities</li></a>
+		<a href="leaders.php"><li>Leaders</li></a>		
 	</ul>
 
 </header>
