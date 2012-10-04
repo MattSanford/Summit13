@@ -1,4 +1,4 @@
-@media all (min-width:961px;) {
+@media all (min-width:961px;) and (max-width: 1920px;) {
 h2,
 h3,
 h4,
@@ -491,7 +491,6 @@ text-align: center;
 					}
 					
 					.cj p{
-					line-height: 18px;
 					font-family: Arial, Helvetica, sans-serif;
 					color: white;
 					}
@@ -523,8 +522,8 @@ text-align: center;
 				}
 			
 			
-				.brightwork span, .brightwork p, cj span, cj p{
-				font-size: 22px;
+				.brightwork span, .brightwork p, .cj span, .cj p{
+				font-size: inherit;
 				}
 			
 			.icon {
@@ -541,7 +540,8 @@ text-align: center;
 	opacity: 0.95;
 	margin-left: 5%;
 	list-style: none;
-	width: 600px;
+	max-width: 630px;
+	width: 90%;
 	display: inline-block;
 	border-radius: 10px;
 	-webkit-transition: background .5s ease-in, ease-out;
@@ -552,9 +552,9 @@ text-align: center;
 		#top-nav li {
 		display: inline-block;
 		color: white;
-		font-size: 28px;
+		font-size: 18px;
 		text-align: center;
-		width: 150px;
+		width: 20%;
 		padding: 5px 15px 5px 15px;
 		margin: 0 0 0 0;
 		}
@@ -614,7 +614,8 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 		
 		#checkout-nav li {
 		height: 50px;
-		width: 200px;
+		max-width: 200px;
+		width: auto;
 		border: 1px solid black;
 		border-radius: 5px;
 		margin-top: 15px;
@@ -652,10 +653,15 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 			color: #4099FF;
 			display: inline-block;
 			}
-	
+		
+			@media all(max-width:700px){
+			#twitter p, #facebook p{
+			display: none;
+			}
+	}
 	#social-bar {
 	padding: 10px 0px 10px 10px;
-	display: inline-block;
+	display: none;
 	}
 		
 		.twitter-hashtag-button {
@@ -692,7 +698,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 	
 	#content {
 	height: 500px auto;
-	width: 96.5%;
+	width: 95%;
 	vertical-align: middle;
 	background: black;
 	opacity: 0.8;
