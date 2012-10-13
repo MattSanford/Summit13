@@ -11,10 +11,10 @@
 
 	<h3>Baltimore Hilton Room Rates</h3>
 		<span class="bbspan">$145.00 per night + tax</span><br>	
-		<h3>Leaders:</h3>
-	<span class="bbspan">Check out the "For Leaders" page to access online registration and direct link to the Baltimore Hilton room reservations.</span>
+		<h3 style="display: none;">Leaders:</h3>
+	<span class="bbspan" style="display: none;">Check out the "For Leaders" page to access online registration and direct link to the Baltimore Hilton room reservations.</span>
 
-		<img src="images/hilton_baltimore.jpg" />
+		<img src="images/hilton_baltimore.jpg" class="registration-pic" />
 	
 	</div>
 	</div>
