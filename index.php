@@ -4,7 +4,6 @@
 <link rel="stylesheet"  href="css/summit.css">
 <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700' rel='stylesheet' type='text/css'>
-
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 </head>
 <body>
@@ -106,7 +105,7 @@ new TWTR.Widget({
 		<img class="pic right" src="" /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium dolor et neque tincidunt dictum. Phasellus tristique varius dignissim. Duis ut aliquam neque. Pellentesque molestie quam eget sem dignissim eleifend. Aliquam id massa sed ligula tempus pellentesque eu eget magna. Nulla sodales nisi eu mi molestie sit amet vehicula urna fringilla. Integer at neque sed arcu elementum fringilla at eget sapien. Nullam arcu augue, fringilla non tempus quis, dapibus non ligula.</p>
 	</div>
 	<div class="bottombar brightwork">
-		<img src="images/Brightwork Pic.jpg" class="pic left" /><span>Hailing from Charlottesville, Virginia, Brightwork is a group of former college friends with a passionate love for God and music that has developed into a talented Christian Rock and Worship Band.  Brightwork has led worship for the past three summers at Mid-Atlantic Youth Summer Camps and has shared the stage with several national touring bands including Sanctus Real, Starfield, and Revive.  Brightwork has released two recordings to great reviews for their own unique sound blending a variety of musical influences. In addition to their obvious musical talent, Brightwork is a respected worship band who lead young people into worship with great sensitivity and a passion that is infectious.</span>
+		<img src="images/Brightwork Pic.jpg" class="pic left" /><span>Hailing from Charlottesville, Virginia, Brightwork is a group of former college friends with a passionate love for God and music that has developed into a talented Christian Rock and Worship Band.  Brightwork has led worship for the past three summers at Mid-Atlantic Youth Summer Camps and has shared the stage with several national touring bands including Sanctus Real, Starfield, and Revive.  Brightwork has released two recordings to great reviews for their own unique sound blending a variety of musical influences. In addition to their obvious musical talent, Brightwork is a respected worship band who lead young people into worship with great sensitivity and a passion that is infectious.</span><p>Check them out <a href="http://www.brightworkband.com/" target="blank">here!</a></p>
 	</div>
 	<div class="bottombar cj">
 		<img src="images/CJM_Promo_Pictures/cornelljordan-promopix4.jpg" class="pic right" /><span>Three simple words describe Cornell Jordan and truly epitomize his personality, approach to ministry, and means to see the Holy Spirit move. In a phrase Cornell Jordan is:</span><br>

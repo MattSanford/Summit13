@@ -12,7 +12,8 @@ text-indent: 0;
 
 
 img{
-size: 100% 100%;
+height: auto;
+width: auto;
 }
 		.pic {
 		height: 125px;
@@ -242,8 +243,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 	vertical-align: middle;
 	text-align: left;
 	background: black;
-	opacity: 0.8;
-	padding: 15px;
+	padding: 1.5%;
 	display: block;
 	color: white;
 	border-radius: 3px;
@@ -258,6 +258,10 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 		color: white;
 		}
 	
+		.download a{
+		color: #CC0000;
+		}
+		
 		#content span {	
 		font-size: 16px;
 		}
@@ -267,14 +271,62 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 		display: inline;
 		}
 		
+		#content img {
+		width: 95%;
+		margin:5px;
+		display: block;
+		}
+		
 		.bbspan {
 		font-size: 17px;
 		font-weight: bold;
 		}
 		
-		#content img {
-		margin-top: 25px;
-		border: 1px solid white;
+
+		
+		#restaurants-ul li{
+		margin-top: 10px;
+		}
+		
+		#restaurants-ul {
+		display: inline-block;
+		}
+		
+		.purple-li a,
+		.purple-li{
+		color: #9933ff;
+		}
+		
+		.yellow-li a,
+		.yellow-li {
+		color: #ff9933;
+		}
+		
+		.red-li a, 
+		.red-li {
+		color: #CC0000;
+		}
+		
+		.green-li a,
+		.green-li{
+		color: #669933;
+		}
+		#ib-span-wrap{
+		float: right;
+		margin: 10% 2% 0 2%;
+		display: inline-block;
+		}
+		
+		#ib-span-wrap {
+		max-width: 500px;
+		}
+		
+		.ib-span {
+		display: inline-block;
+		}
+		
+		.bhilton {
+		height: 250px;
 		}
 
 
@@ -382,14 +434,14 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 	border-radius: 5px 5px 0 0;
 	text-align: center;
 	}
-}
+
 
 /*======================================================*/
 /*======================MEDIA_QUERIES===================*/
 /*======================================================*/
 
 
-@media all and (max-width:960px) and (min-width:400px) {
+@media all and (max-width:1100px) and (min-width:400px) {
 span,
 li,
 a,
@@ -570,7 +622,6 @@ text-align: center;
 		}
 		
 		#top-nav a {
-		color: orange;
 		text-decoration: none;
 		margin: 0;
 			}
@@ -586,6 +637,7 @@ text-align: center;
 	
 #wrapper {
 margin: 0 1% 0 3.5%;
+padding-top: 4%;
 
 }
 
@@ -711,7 +763,6 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 	width: 95%;
 	vertical-align: middle;
 	background: black;
-	opacity: 0.8;
 	padding: 15px;
 	display: block;
 	color: white;

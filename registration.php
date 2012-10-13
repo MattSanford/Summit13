@@ -1,26 +1,22 @@
 <?php include("header.php"); ?>
 <?php include("main.php"); ?>
 	<div id="content">
-	<h3>Estimated Cost Breakdown:</h3>
-	<h5>(Includes two nights lodging at <a href="location.php">The Baltimore Hilton</a>, Saturday Lunch, late night activities and snacks)</h5>
-	<span class="bbspan"> Four (persons) per room:</span>
-		<ul>
-			<li><span>Early Bird: $82.50 (room+tax) + $75 (registration) = $157.50</span></li>
-			<li><span>Regular: $82.50 (room+tax) + $80 (registration) = $162.50</span></li>
-		</ul>
-	<span class="bbspan"> Three (persons) per room:</span>
-		<ul>
-			<li><span>Early Bird: $110 (room+tax) + $75 (registration) = $185</span></li>
-			<li><span>Regular: $110 (room+tax) + $80 (registration) = $190</span></li>
-		</ul>
-	<span class="bbspan"> Two (persons) per room:</span>
-		<ul>
-			<li><span>Early Bird: $165 (room+tax) + $75 (registration) = $240</span></li>
-			<li><span>Regular: $165 (room+tax)  + $80 (registration) = $245</span></li>
-		</ul>
-		<img src="http://www3.hilton.com/resources/media/hi/BWICCHH/en_US/img/shared/full_page_image_gallery/main/hh_keyballroom_5_675x359_FitToBoxSmallDimension_Center.jpg" />
-	</div>
+	<h3>Registration: Per Person</h3>
+	<h5>(Includes two nights lodging at <a href="location.php">The Baltimore Hilton</a>, Saturday Lunch, late night activities and snacks and all summit materials)</h5>
+	<ul>
+		<li><span>$75 (Through January 15<sup>th</sup>)<span></li>
+		<li><span>$80 (Through March 31<sup>st</sup>)</span></li>
+	</ul>			
+	<p class="download"><a href="Summit Student and Leader Registrationpdf.pdf.zip">Download PDF Student &amp Leader Registration Form Here</a></p>
 
-</div>
+	<h3>Baltimore Hilton Room Rates</h3>
+		<span class="bbspan">$145.00 per night + tax</span><br>	
+		<h3>Leaders:</h3>
+	<span class="bbspan">Check out the "For Leaders" page to access online registration and direct link to the Baltimore Hilton room reservations.</span>
+
+		<img src="images/hilton_baltimore.jpg" />
+	
+	</div>
+	</div>
 </div>
 <?php include("footer.php"); ?>
