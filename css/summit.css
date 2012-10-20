@@ -118,8 +118,6 @@ text-align: center;
 		color: white;
 		-webkit-transition: background .5s linear;
 		background-color: #BE6600;
-		border-left: 1px solid white;
-		border-right: 1px solid white;
 		-webkit-box-shadow: 0px 1px 30px rgba(255, 139, 26, 1);
 		-moz-box-shadow:    0px 1px 30px rgba(255, 139, 26, 1);
 		box-shadow:         0px 1px 30px rgba(255, 139, 26, 1);	
@@ -235,6 +233,69 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 	border-radius: 5px;
 	padding: 10px;
 	}
+	
+	.callout {
+position: absolute;
+margin: 18px 0;
+padding: 0;
+background-color: red;
+border-radius: 5px;
+display: inline-block;
+-webkit-animation-duration: 6s;
+-webkit-animation-name: slidein;
+opacity: 0;
+z-index: 90;
+float: left;
+clear: both;
+}
+
+	@-webkit-keyframes slidein {
+	from {
+		margin-left: 0%;
+		}
+		50% {
+		margin-left: 50%;
+		}
+		
+		60% {
+		margin-left: 40%;
+		}
+		
+		70% {
+		margin-left: 100%;
+		opacity: 1
+		}
+		
+	to {
+	opacity:0;
+		}
+	}
+}
+
+
+.callout .notch {
+position: absolute;
+top: -20px;
+left: 20px;
+border-top: 0;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-bottom: 10px solid red;
+
+}
+
+.border-callout {
+border: 1px solid black;
+padding: 17px 19px;
+}
+
+.border-callout .border-notch {
+border-bottom-color: black;
+top: -19px;
+}
+
+
+
 	
 	#content {
 	height: 500px auto;
@@ -392,9 +453,6 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 					background-color: #46413B;
 						}			
 		
-					.cj img{
-					width:150px;
-					}
 			
 					#cj-text-wrap{
 					width: 100px;
@@ -456,7 +514,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 /*======================================================*/
 
 
-@media all and (max-width:1100px) and (min-width:400px) {
+@media all and (max-width:1100px) and (min-width: 300px)  {
 span,
 li,
 a,
@@ -478,8 +536,6 @@ margin-bottom: 5px;
 }
 
 		.pic {
-		height: 50px;
-		width: 50px;
 		margin: 5px;
 		display: inline-block;
 		margin: 15px 5px 10px 5px;
@@ -815,7 +871,6 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 
 	.bottombar {
 	height: 200px auto;
-	width: 90%;
 	padding: 15px;
 	position: relative;
 	border: 1px solid black;

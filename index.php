@@ -5,6 +5,23 @@
 <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<meta property="og:title" content ="Foursquare Summit East 13">
+<meta property=og:site_name" content="Foursquare Youth Summit">
+<meta property="og:url" content="http://foursquaresummiteast.org/">
+<meta property="og:image" content="http://foursquaresummiteast.org/images/Imagine Logo-Flyer.png">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35548163-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 <body>
 <div id="fb-root"></div>
@@ -29,7 +46,11 @@
 
 </header>
 <div id="wrapper">
-
+	<div class="callout border-callout">
+	<p class="callout-text">Be sure to</p>
+		<div class="border-notch notch"></div>
+		<div class="notch"></div>
+	</div>
 		<div id="sidebar-left">
 			<ul id="checkout-nav">
 				<a href="http://www.facebook.com/FoursquareSummitEast"target="blank"><li id="facebook">
@@ -86,7 +107,6 @@ new TWTR.Widget({
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	<div class="fb-like" data-href="http://www.facebook.com/FoursquareSummitEast" data-send="true" data-width="450" data-show-faces="false"></div>
 	</div>
-
 	<div id="content">
 		<span class="bbspan">IMAGINE</span><span>...</span><p>Hundreds of Foursquare students and leaders from across the eastern part of the United States gathered together in one place at one time worshipping <span>ONE GOD!</span>
 </p><br/><br/>
@@ -101,8 +121,9 @@ new TWTR.Widget({
 	<div class="bottombar">
 		<img class="pic left" src="images/Klingenmeier-Lesli - 2010.JPG" /><span>This first Foursquare Youth Summit in the East since the 1990's is coming to Baltimore, Maryland April 12-14, 2013, and you are invited! This will be a gathering of youth from the eastern part of the United States together in one place to IMAGINE the possibilities of how God wants to use each of them to change the world around them.   The weekend will have an evangelistic focus (so bring lots of friends) with a strong discipleship follow-up in an environment of engaging worship, interactive ministry, and lots of fun!  Imagine Foursquare Summit East 13 is designed to be a catalyst to help students and NextGen leaders dream big dreams, realize bold visions, and expand their minds to IMAGINE the incredible plans God has in store for each of them as they follow Him.</span><br><br><span>Check out the information and come IMAGINE the possibilities together in Baltimore!</span><br><br><span>Lesli Klingenmeier<br>Mid-Atlantic NextGen Director</br>
 	</div>
-	<div class="bottombar" style="display: none;">
-		<img class="pic right" src="" /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium dolor et neque tincidunt dictum. Phasellus tristique varius dignissim. Duis ut aliquam neque. Pellentesque molestie quam eget sem dignissim eleifend. Aliquam id massa sed ligula tempus pellentesque eu eget magna. Nulla sodales nisi eu mi molestie sit amet vehicula urna fringilla. Integer at neque sed arcu elementum fringilla at eget sapien. Nullam arcu augue, fringilla non tempus quis, dapibus non ligula.</p>
+	<div class="bottombar" style="background-color: white;">
+		<img class="pic right" src="images/harriet.gif" /><p>"Summit '13 in Baltimore, MD is a dream and I gladly share it with you!   This dream is about more than a weekend, it's about a destiny for the teens.  Your future is a bright one because of the plans and purposes that God has destined for you.   I've talked with many of you at camps throughout the district and am very impressed with your focused life in the Word, your abandonment to worship, and your love for each other.  Just "IMAGINE" what's next for your own life and for your friend who doesn't know Jesus yet.    I support you in your dreams and love imagining the awesome future God has for you.  Indeed, "eye has not seen what God has prepared for you".  Let's get a peek together in Baltimore.   Pastor Bill and I look forward to seeing you there! 
+<br>-Harriet</p>
 	</div>
 	<div class="bottombar brightwork">
 		<img src="images/Brightwork Pic.jpg" class="pic left" /><span>Hailing from Charlottesville, Virginia, Brightwork is a group of former college friends with a passionate love for God and music that has developed into a talented Christian Rock and Worship Band.  Brightwork has led worship for the past three summers at Mid-Atlantic Youth Summer Camps and has shared the stage with several national touring bands including Sanctus Real, Starfield, and Revive.  Brightwork has released two recordings to great reviews for their own unique sound blending a variety of musical influences. In addition to their obvious musical talent, Brightwork is a respected worship band who lead young people into worship with great sensitivity and a passion that is infectious.</span><p>Check them out <a href="http://www.brightworkband.com/" target="blank">here!</a></p>

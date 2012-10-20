@@ -4,8 +4,24 @@
 <link rel="stylesheet" href="css/summit.css">
 <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700' rel='stylesheet' type='text/css'>
-
+<meta property="og:title" content ="Foursquare Summit East 13">
+<meta property=og:site_name" content="Foursquare Youth Summit">
+<meta property="og:url" content="http://foursquaresummiteast.org/">
+<meta property="og:image" content="http://foursquaresummiteast.org/images/Imagine Logo-Flyer.png">
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35548163-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 <body>
 <div id="fb-root"></div>
