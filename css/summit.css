@@ -234,69 +234,127 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 	padding: 10px;
 	}
 	
-	.callout {
-position: absolute;
-margin: 18px 0;
-padding: 0;
-background-color: red;
-border-radius: 5px;
-display: inline-block;
--webkit-animation-duration: 6s;
--webkit-animation-name: slidein;
-opacity: 0;
-z-index: 90;
-float: left;
-clear: both;
+	.notch .notch2 .notch3 {
+    border-top: 10px solid #000;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 0;
+    _border-right-color: black;
+    _border-left-color: black;
+    _filter: chroma(color=black);
+}
+.callout {
+    position: absolute;
+    margin: 42% 0;
+    width: 500px;
+	left: 300px;
+    padding: 18px 20px;
+    background-color: #eef4f9;
+    /* easy rounded corners for modern browsers */
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    animation: slidein;
+    animation-duration: 6s;
+    animation-delay: 5s;
+    -webkit-animation: slidein;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-delay: 5s;
+    -moz-animation: slidein;
+    -moz-animation-duration: 6s;
+    -moz-animation-delay: 5s;
+    -o-animation: slidein;
+    -o-animation-duration: 6s;
+    -o-animation-delay: 5s;
+    opacity:0;
+}
+ .notch{
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    margin: 0;
+    border-top: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #eef4f9;
+    padding: 0;
+    width: 0;
+    height: 0;
+    /* ie6 height fix */
+    font-size: 0;
+    line-height: 0;
+     /* ie6 transparent fix */
+    _border-right-color: black;
+    _border-left-color: black;
+    _filter: chroma(color=black);
 }
 
-	@-webkit-keyframes slidein {
-	from {
-		margin-left: 0%;
-		}
-		50% {
-		margin-left: 50%;
-		}
-		
-		60% {
-		margin-left: 40%;
-		}
-		
-		70% {
-		margin-left: 100%;
-		opacity: 1
-		}
-		
-	to {
-	opacity:0;
-		}
-	}
+@-webkit-keyframes slidein{ /*chrome & safari*/
+from {
+left: 300px;
+opacity: 1;
 }
 
-
-.callout .notch {
-position: absolute;
-top: -20px;
-left: 20px;
-border-top: 0;
-border-left: 10px solid transparent;
-border-right: 10px solid transparent;
-border-bottom: 10px solid red;
+95% {
+opacity: 1;
+}
+to{
+left: 650px;
+opacity:0;
+display: none;
+}
 
 }
 
-.border-callout {
-border: 1px solid black;
-padding: 17px 19px;
+@-o-keyframes slidein{ /*opera*/
+from {
+left: 300px;
+opacity: 1;
 }
 
-.border-callout .border-notch {
-border-bottom-color: black;
-top: -19px;
+95% {
+opacity: 1;
+}
+to{
+left: 650px;
+opacity:0;
+display: none;
+}
+}
+@-moz-keyframes slidein{ /*firefox*/
+from {
+left: 300px;
+opacity: 1;
 }
 
+95% {
+opacity: 1;
+}
+to{
+left: 650px;
+opacity:0;
+display: none;
+}
+}
+@keyframes slidein{
+from {
+left: 300px;
+opacity: 1;
+}
+
+95% {
+opacity: 1;
+}
+to{
+left: 650px;
+opacity:0;
+display: none;
+}
+}
+.border-callout { border: 1px solid #c5d9e8; padding: 17px 19px; }
+.border-callout { border-bottom-color: #c5d9e8; top: -11px; }
 
 
-	
 	#content {
 	height: 500px auto;
 	max-width:880px;
@@ -870,11 +928,13 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 		}
 
 	.bottombar {
-	height: 200px auto;
+	height: auto;
 	padding: 15px;
 	position: relative;
 	border: 1px solid black;
-	margin: 15px 0 25px 15px;
+	margin: 5% 0 5% 0%;
+	margin-left: auto;
+	margin-right: auto;
 	display: block;	
 	border-radius: 5px;
 	-webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);

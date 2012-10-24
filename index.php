@@ -33,8 +33,8 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div id="container">
-<header>
 
+<header>
 	<ul id="top-nav">
 		<li><a href="index.php">Home</a></li>
 		<li class="right-item"><a href="location.php" ">Location</a></li>
@@ -47,7 +47,7 @@
 </header>
 <div id="wrapper">
 	<div class="callout border-callout">
-	<p class="callout-text">Be sure to</p>
+	<p class="callout-text">Be sure to use the buttons to get the word out about summit!</p>
 		<div class="border-notch notch"></div>
 		<div class="notch"></div>
 	</div>
