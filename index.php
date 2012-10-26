@@ -1,5 +1,6 @@
 <html>
 <head>
+<title>Foursquare Youth Summit East 2013, Baltimore Maryland, Mid-Atlantic District, Lesli Klingenmier, Harriet Mouer, Cornell Jordan, Brightwork.</title>
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet"  href="css/summit.css">
 <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
@@ -9,6 +10,7 @@
 <meta property=og:site_name" content="Foursquare Youth Summit">
 <meta property="og:url" content="http://foursquaresummiteast.org/">
 <meta property="og:image" content="http://foursquaresummiteast.org/images/Imagine Logo-Flyer.png">
+<meta name="description" content="Foursquare Summit East 2013 - Youth Summit 2013 - Imagine - Baltimore MD - Foursquare Mid-Atlantic - Lesli Klingenmeir - Brightwork - Cornell jordan">
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
