@@ -46,11 +46,6 @@
 
 </header>
 <div id="wrapper">
-	<div class="callout border-callout">
-	<p class="callout-text">Be sure to use the buttons to get the word out about summit!</p>
-		<div class="border-notch notch"></div>
-		<div class="notch"></div>
-	</div>
 		<div id="sidebar-left">
 			<ul id="checkout-nav">
 				<a href="http://www.facebook.com/FoursquareSummitEast"target="blank"><li id="facebook">
@@ -108,6 +103,9 @@ new TWTR.Widget({
 	<div class="fb-like" data-href="http://www.facebook.com/FoursquareSummitEast" data-send="true" data-width="450" data-show-faces="false"></div>
 	</div>
 	<div id="content">
+<iframe id="ytplayer" type="text/html" width="95%" height="40%"
+src="https://www.youtube.com/embed/fthvMV-VJvI?autoplay=1&theme=light"
+frameborder="0" allowfullscreen></iframe>
 		<span class="bbspan">IMAGINE</span><span>...</span><p>Hundreds of Foursquare students and leaders from across the eastern part of the United States gathered together in one place at one time worshipping <span>ONE GOD!</span>
 </p><br/><br/>
 		<span class="bbspan">IMAGINE</span><span>...</span><p>An atmosphere so electric with the presence of <span>GOD</span> that you experience Him in a way that you never experienced Him before!</p><br/><br/>
