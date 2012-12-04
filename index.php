@@ -99,7 +99,7 @@ new TWTR.Widget({
 <div id="main">
 	<div id="social-bar">
 <!-- Place this tag where you want the +1 button to render. -->
-		<div class="g-plusone" data-size="medium"></div>
+		<div class="g-plusone google-plus" data-size="medium"></div>
 		<a href="https://twitter.com/intent/tweet?button_hashtag=FoursquareSummitEast" class="twitter-hashtag-button" data-related="summiteast13">Tweet #FoursquareSummitEast</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	<div class="fb-like" data-href="http://www.facebook.com/FoursquareSummitEast" data-send="true" data-width="450" data-show-faces="false"></div>
@@ -108,13 +108,13 @@ new TWTR.Widget({
 <iframe id="ytplayer" type="text/html" width="95%" height="40%"
 src="https://www.youtube.com/embed/fthvMV-VJvI?autoplay=1&theme=light"
 frameborder="0" allowfullscreen></iframe>
-		<span class="bbspan">IMAGINE</span><span>...</span><p>Hundreds of Foursquare students and leaders from across the eastern part of the United States gathered together in one place at one time worshipping <span>ONE GOD!</span>
+		<span class="imagine-text"><span class="bbspan">IMAGINE</span><span>...</span><p>Hundreds of Foursquare students and leaders from across the eastern part of the United States gathered together in one place at one time worshipping <span>ONE GOD!</span></span>
 </p><br/><br/>
-		<span class="bbspan">IMAGINE</span><span>...</span><p>An atmosphere so electric with the presence of <span>GOD</span> that you experience Him in a way that you never experienced Him before!</p><br/><br/>
-		<span class="bbspan">IMAGINE</span><span>...</span><p>Meeting other youth in the Foursquare family you would have never met before that could become lifelong friends!</p><br/><br/>
-		<span class="bbspan">IMAGINE</span><span>...</span><p>Having a weekend away in Baltimore that you were so excited to invite your friends to because you knew it was going to be a TON OF FUN and this was their opportunity to meet Jesus and be headed for eternal life!
-</p><br/><br/>
-		<span class="bbspan">IMAGINE</span><span>...</span><p>Being challenged in your own spiritual life to believe that God has plans for you that you could never even <span>IMAGINE!</span></p><br/><br/>
+		 <span class="imagine-text"><span class="bbspan">IMAGINE</span><span>...</span><p>An atmosphere so electric with the presence of <span>GOD</span> that you experience Him in a way that you never experienced Him before!</p><br/><br/></span>
+		 <span class="imagine-text"><span class="bbspan">IMAGINE</span><span>...</span><p>Meeting other youth in the Foursquare family you would have never met before that could become lifelong friends!</p><br/><br/></span>
+		 <span class="imagine-text"><span class="bbspan">IMAGINE</span><span>...</span><p>Having a weekend away in Baltimore that you were so excited to invite your friends to because you knew it was going to be a TON OF FUN and this was their opportunity to meet Jesus and be headed for eternal life!
+</p><br/><br/></span>
+		 <span class="imagine-text"><span class="bbspan">IMAGINE</span><span>...</span><p>Being challenged in your own spiritual life to believe that God has plans for you that you could never even <span>IMAGINE!</span></p><br/><br/></span>
 
 	</div>
 	
