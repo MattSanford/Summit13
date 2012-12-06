@@ -1,13 +1,15 @@
 <html>
 <head>
+<?php echo $pageTitle; ?>
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/summit.css">
 <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700' rel='stylesheet' type='text/css'>
 <meta property="og:title" content ="Foursquare Summit East 13">
-<meta property=og:site_name" content="Foursquare Youth Summit">
+<meta property=og:site_name content="Foursquare Youth Summit">
 <meta property="og:url" content="http://foursquaresummiteast.org/">
 <meta property="og:image" content="http://foursquaresummiteast.org/images/Imagine Logo-Flyer.png">
+<meta name="description" content="Foursquare Summit East 2013 - Youth Summit 2013 - Imagine - Baltimore MD - Foursquare Mid-Atlantic - Lesli Klingenmeir - Brightwork - Cornell jordan">
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 <script type="text/javascript">
 
@@ -22,6 +24,7 @@
   })();
 
 </script>
+
 </head>
 <body>
 <div id="fb-root"></div>

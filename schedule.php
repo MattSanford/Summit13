@@ -1,3 +1,4 @@
+<?php $pageTitle="<title>Daily Schedule for Foursquare Summit East '13</title>"?>
 <?php include("header.php"); ?>
 <?php include("main.php"); ?>
 		<div id="content">

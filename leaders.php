@@ -1,3 +1,4 @@
+<?php $pageTitle="<title>Leaders Resources For Foursquare Summit East '13</title>"?>
 <?php include("header.php"); ?>
 <?php include("main.php"); ?>
 <div id="content">
