@@ -35,9 +35,6 @@ if (document.images) {
     img3.src = "images/Brightwork Pic.jpg";
     img4 = new Image();
     img4.src = "images/CJM_Promo_Pictures/cornelljordan-promopix4.jpg";
-    img5 = new Image();
-    img5.src = "image.jpg";
-
 }
 </script>
 </head>
