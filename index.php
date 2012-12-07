@@ -65,12 +65,12 @@ if (document.images) {
 			<ul id="checkout-nav">
 				<a href="http://www.facebook.com/FoursquareSummitEast"target="blank"><li id="facebook">
 					<img class="icon" src="images/f_logo.png" />
-					<span>Facebook</span>
+					<h2>Facebook</h2>
 					<p>Check out our page!</p>
 				</li></a>
 				<a href="http://twitter.com/SummitEast13" target="blank"><li id="twitter">
 					<img class="icon" src="images/twitter-bird-white-on-blue.png" />				
-					<span>Twitter</span>
+					<h2>Twitter</h2>
 					<p>Follow Us on Twitter!</p>
 				</li></a>
 				<li id="countdown">
@@ -116,11 +116,7 @@ new TWTR.Widget({
 		<a href="https://twitter.com/intent/tweet?button_hashtag=FoursquareSummitEast" class="twitter-hashtag-button" data-related="summiteast13">Tweet #FoursquareSummitEast</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	<div class="fb-like" data-href="http://www.facebook.com/FoursquareSummitEast" data-send="true" data-width="450" data-show-faces="false"></div>
-		<div class="callout border-callout">
 	<p class="callout-text">Be sure to use the buttons to get the word out about summit!</p>
-		<div class="border-notch notch"></div>
-		<div class="notch"></div>
-	</div>
 	</div>
 	<div id="content">
 <iframe id="ytplayer" type="text/html" width="100%" height="100%"
