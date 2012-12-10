@@ -263,6 +263,10 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         padding: 10px;
     }
 
+    #main a{
+        color: red;
+    }
+
     #ytplayer {
         max-height: 510px;
         max-width: 850px;
