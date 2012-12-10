@@ -64,7 +64,7 @@ src: url("/LeagueGothic/leaguegothic-regular-webfont.eot");
 
 
 #container {
-background-image: url("../images/brickwall.jpg");
+background-image: url("/images/brickwall.jpg");
 font-family: 'Poiret One', cursive;
 background-size: 100% 100%;
 margin: 0 0 0 0;
