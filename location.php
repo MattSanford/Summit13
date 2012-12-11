@@ -1,3 +1,4 @@
+<?php $pageTitle="<title>Foursquare Youth Summit in Baltimore, MD</title>"?>
 <?php include("header.php"); ?>
 <?php include("main.php"); ?>
 <div id="content">
