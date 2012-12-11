@@ -2,9 +2,11 @@
 <head>
 <?php echo $pageTitle; ?>
 <link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/summit.css">
+<link rel="stylesheet"  href="css/summit.css">
 <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 <meta property="og:title" content ="Foursquare Summit East 13">
 <meta property=og:site_name content="Foursquare Youth Summit">
 <meta property="og:url" content="http://foursquaresummiteast.org/">

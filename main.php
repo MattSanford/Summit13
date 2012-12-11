@@ -4,12 +4,12 @@
 			<ul id="checkout-nav">
 				<a href="http://www.facebook.com/FoursquareSummitEast"target="blank"><li id="facebook">
 					<img class="icon" src="images/f_logo.png" />
-					<span>Facebook</span>
+					<h2>Facebook</h2>
 					<p>Check out our page!</p>
 				</li></a>
 				<a href="http://twitter.com/SummitEast13" target="blank"><li id="twitter">
 					<img class="icon" src="images/twitter-bird-white-on-blue.png" />				
-					<span>Twitter</span>
+					<h2>Twitter</h2>
 					<p>Follow Us on Twitter!</p>
 				</li></a>
 				<li id="countdown">

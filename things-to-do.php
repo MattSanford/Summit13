@@ -1,4 +1,4 @@
-<?php $pageTitle="<title>Activities For Forsquare Summit East '13</title>"?>
+<?php $pageTitle="<title>Things To Do For Forsquare Summit East '13</title>"?>
 <?php include("header.php"); ?>
 <?php include("main.php"); ?>
 <div id="content">
