@@ -56,7 +56,7 @@ if (document.images) {
 		<li class="right-item"><a href="location.php">Location</a></li>
 		<li><a href="registration.php">Registration</a></li>
 		<li class="right-item"><a href="schedule.php">Schedule</a></li>
-		<li><a href="things-to-do.php">Activities</a></li>
+		<li><a href="things-to-do.php">Things To Do</a></li>
 		<li class="right-item"><a href="leaders.php">Leaders</a></li>		
 	</ul>
 
