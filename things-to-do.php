@@ -8,8 +8,10 @@
 	<span class="yellow-li ib-span">201 East Pratt Street = Harbourplace Restaurants</span><br>
 	<span class="red-li ib-span">300-400 West Pratt = restaurants across the street from the Hilton</span><br>
 	<span class="green-li ib-span">621 East Pratt Street = Power Plant Restaurants</span><br>
-	</div>	
-	<ul id="restaurants-ul">
+	</div>
+	<div class="div-list">
+	<button class="button" onclick="showstuff('restaurants'); hidestuff('activities'); hidestuff('shopping');">Restaurants</button>														
+	<ul id="restaurants">
 		<li class="purple-li"><a href="http://goo.gl/maps/aFCc5">McDonald's</a></li>
 		<li class="purple-li"><a href="http://goo.gl/maps/aFCc5">Baltimore Salad Works</a></li>	
 		<li class="purple-li"><a href="http://goo.gl/maps/aFCc5">Starbucks</a></li>
@@ -28,7 +30,29 @@
 		<li class="green-li"><a href="http://goo.gl/maps/iBEPW">Uno Chicago Grill</a></li>
 		<li class="green-li"><a href="http://goo.gl/maps/f4bMm">Hard Rock Cafe</a></li>
 		<li class="green-li"><a href="http://goo.gl/maps/yFhFD">Brio Tuscan Grille</a></li>
-	</ul>																
+	</ul>
+	</div>
+	<div class="div-list">
+	<button class="button" onclick="showstuff('activities'); hidestuff('restaurants'); hidestuff('shopping');">Activities</button>
+	<ul id="activities">
+   <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+   <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+   <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+   <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+</ul>
+            
+	</div> 			
+	<div class="div-list">
+		<button class="button" onclick="showstuff('shopping'); hidestuff('restaurants'); hidestuff('activities');">Shopping</button>
+		<ul id="shopping">
+			<li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+			<li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+			<li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+		 	<li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+		</ul>
+            
+	</div>
+	<div class="clearing"></div>
 </div>
 </div>
 </div>

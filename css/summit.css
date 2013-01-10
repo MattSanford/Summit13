@@ -298,7 +298,23 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
     -moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
     box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
     }
-                #content h3 {
+
+    .div-list {
+        float: left; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 23%; 
+    }
+
+    .clearing {
+        clear: both;
+    }
+
+    .button{
+        margin: 0 auto 0 auto; 
+        display: inline;
+    }
+        #content h3 {
         color: white;
         }
     
@@ -331,14 +347,15 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         .imagine-text {
         display: none;
         }
+
+        #restaurants, #shopping, #activities {
+        visibility: hidden;
+        }
         
-        #restaurants-ul li{
+        #restaurants ul li{
         margin-top: 10px;
         }
         
-        #restaurants-ul {
-        display: inline-block;
-        }
         
         .purple-li a,
         .purple-li{
@@ -360,14 +377,10 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         color: #669933;
         }
         #ib-span-wrap{
-        float: right;
-        margin: 10% 2% 0 2%;
-        display: inline-block;
+        margin: 2% auto 2% auto;
+        display: block;
         }
         
-        #ib-span-wrap {
-        max-width: 500px;
-        }
         
         .ib-span {
         display: inline-block;
