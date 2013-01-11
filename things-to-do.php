@@ -35,20 +35,20 @@
 	<div class="div-list">
 	<button class="button" onclick="showstuff('activities'); hidestuff('restaurants'); hidestuff('shopping');">Activities</button>
 	<ul id="activities">
-   <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
-   <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
-   <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
-   <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+   <li><a href="http://www.historicships.org">Maritime Ship Tours</a><a href="http://goo.gl/maps/D2fnT"><br/> Click here for directions</a></li>
+   <li><a href="http://www.mdsci.org">Maryland Science Center</a><a href="http://goo.gl/maps/AAFmE"><br/> Click here for directions</a></li>
+   <li><a href="http://www.aqua.org">National Aquarium of Baltimore</a><a href="http://goo.gl/maps/WGr2G"><br/> Click here for directions</a></li>
+   <li>Paddle Boats at the Inner Harbor</li>
+   <li><a href="http://www.baltimore.orioles.mlb.com">Oriole Park at Camden YArds Tour</a><a href="http://goo.gl/maps/GFD32"><br/> Click here for directions</a></li>
+   <li><a href="http://baberuthmuseum.com">Sports Legends Museum</a><a href="http://goo.gl/maps/Yr6Ep"><br/> Click here for directions</a></li>
+   <li>Afternoon Activities at the Hilton including movies, games, etc.</li>
 </ul>
             
 	</div> 			
 	<div class="div-list">
 		<button class="button" onclick="showstuff('shopping'); hidestuff('restaurants'); hidestuff('activities');">Shopping</button>
 		<ul id="shopping">
-			<li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
-			<li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
-			<li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
-		 	<li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+   			<li><a href="http://www.harborplace.com">Harbor Place Mall</a><a href="http://goo.gl/maps/elgpC"> Click here for directions</a></li>
 		</ul>
             
 	</div>
