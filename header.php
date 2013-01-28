@@ -4,8 +4,17 @@
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet"  href="css/summit.css">
 <link href='http://fonts.googleapis.com/css?family=Poiret+One|Raleway:400,300' rel='stylesheet' type='text/css'>
+<!-- Standard iPhone --> 
+<link rel="apple-touch-icon" sizes="57x57" href="IOS-Icons/57x57.png" />
+<!-- Retina iPhone --> 
+<link rel="apple-touch-icon" sizes="114x114" href="IOS-Icons/114x114.png" />
+<!-- Standard iPad --> 
+<link rel="apple-touch-icon" sizes="72x72" href="IOS-Icons/72x72.png" />
+<!-- Retina iPad --> 
+<link rel="apple-touch-icon" sizes="144x144" href="IOS-Icons/144x144.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:title" content ="Foursquare Summit East 13">
-<meta property=og:site_name content="Foursquare Youth Summit">
+<meta property="og:site_name" content="Foursquare Youth Summit">
 <meta property="og:url" content="http://foursquaresummiteast.org/">
 <meta property="og:image" content="http://foursquaresummiteast.org/images/Imagine Logo-Flyer.png">
 <meta name="description" content="Foursquare Summit East 2013 - Youth Summit 2013 - Imagine - Baltimore MD - Foursquare Mid-Atlantic - Lesli Klingenmeir - Brightwork - Cornell jordan">

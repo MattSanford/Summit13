@@ -3,13 +3,19 @@
 <title>Foursquare Imagine Youth Summit East 2013</title>
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet"  href="css/summit.css">
-<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Poiret+One|Raleway:400,300' rel='stylesheet' type='text/css'>
+<!-- Standard iPhone --> 
+<link rel="apple-touch-icon" sizes="57x57" href="IOS-Icons/57x57.png" />
+<!-- Retina iPhone --> 
+<link rel="apple-touch-icon" sizes="114x114" href="IOS-Icons/114x114.png" />
+<!-- Standard iPad --> 
+<link rel="apple-touch-icon" sizes="72x72" href="IOS-Icons/72x72.png" />
+<!-- Retina iPad --> 
+<link rel="apple-touch-icon" sizes="144x144" href="IOS-Icons/144x144.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 <meta property="og:title" content="Foursquare Summit East 13">
-<meta property=og:site_name content="Foursquare Youth Summit">
+<meta property="og:site_name" content="Foursquare Youth Summit">
 <meta property="og:url" content="http://foursquaresummiteast.org/">
 <meta property="og:image" content="http://foursquaresummiteast.org/images/Imagine Logo-Flyer.png">
 <meta name="description" content="Foursquare Summit East 2013 - Youth Summit 2013 - Imagine - Baltimore MD - Foursquare Mid-Atlantic - Lesli Klingenmeir - Brightwork - Cornell jordan">
@@ -120,16 +126,27 @@ new TWTR.Widget({
 	<p class="callout-text">Be sure to use the buttons to get the word out about summit!</p>
 	</div>
 	<div id="content">
-<iframe id="ytplayer" type="text/html" width="100%" height="100%"
-src="https://www.youtube.com/embed/fthvMV-VJvI?autoplay=1&theme=light"
-frameborder="0" allowfullscreen></iframe>
-		<span class="imagine-text"><span class="bbspan">IMAGINE</span>...<p>Hundreds of Foursquare students and leaders from across the eastern part of the United States gathered together in one place at one time worshipping ONE GOD!</p><br/><br/></span>
-		 <span class="imagine-text"><span class="bbspan">IMAGINE</span>...<p>An atmosphere so electric with the presence of GOD that you experience Him in a way that you never experienced Him before!</p><br/><br/></span>
-		 <span class="imagine-text"><span class="bbspan">IMAGINE</span>...<p>Meeting other youth in the Foursquare family you would have never met before that could become lifelong friends!</p><br/><br/></span>
-		 <span class="imagine-text"><span class="bbspan">IMAGINE</span>...<p>Having a weekend away in Baltimore that you were so excited to invite your friends to because you knew it was going to be a TON OF FUN and this was their opportunity to meet Jesus and be headed for eternal life!
-</p><br/><br/></span>
-		 <span class="imagine-text"><span class="bbspan">IMAGINE</span>...<p>Being challenged in your own spiritual life to believe that God has plans for you that you could never even <span>IMAGINE!</span></p><br/><br/></span>
-
+		<section class="box">
+			<h1 class="box-heading">Text</h1>
+			<img class="box-pic" src="#">
+			<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
+		</section>
+		<section class="box">
+			<h1 class="box-heading">Text</h1>
+			<img class="box-pic" src="#">
+			<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
+		</section>
+		<section class="box">
+			<h1 class="box-heading">Text</h1>
+			<img class="box-pic" src="#">
+			<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
+		</section>
+		<section class="box">
+			<h1 class="box-heading">Text</h1>
+			<img class="box-pic" src="#">
+			<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
+		</section>
+		<div class="clearing"></div>
 	</div>
 	
 	<div class="bottombar">

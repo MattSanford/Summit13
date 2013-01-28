@@ -14,6 +14,7 @@ text-indent: 0;
 img{
 height: auto;
 width: auto;
+margin: 15px auto 0 auto;
 }
         .pic, #pic {
         max-height: 400px;
@@ -274,11 +275,6 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
     #main a{
         color: red;
     }
-
-    #ytplayer {
-        max-height: 510px;
-        max-width: 850px;
-    } 
     
 
     #content {
@@ -298,6 +294,45 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
     -moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
     box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
     }
+
+        .box {
+            background-image: url("/images/gray-jean.png"); 
+            float: left;
+            margin: 0 25px 25px;
+            width: 15%;
+            padding: 15px;
+            border-radius: 5px;
+            -moz-box-shadow: 1px 1px 20px #ffffff;
+            -webkit-box-shadow: 1px 1px 20px #ffffff;
+            box-shadow: 1px 1px 20px #ffffff;
+        }
+
+            .box-heading {
+                margin: 0 0 -15px 35px;
+                position: absolute;
+                color: #BE6600;
+                -webkit-animation: colorflash;
+                -webkit-animation-duration: 3s;
+                -webkit-animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite;
+                }
+
+            .box-pic {
+                height: 63px;
+                width: 112px;
+                border: 1px solid black;
+                margin: 10px auto;
+                display: block;
+            }
+
+            .box-content {
+                border-top: 1px dotted black;
+
+            }
+
+            .box-content p {
+                color: black;
+            }
 
     .div-list {
         float: left; 
@@ -343,14 +378,8 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         font-size: 16px;
         }
 
-        #content p {
-        color: white;
-        display: inline;
-        }
+
         
-        #content img {
-        width: 95%;
-        }
         
         .registration-pic {
         margin-top: 2%;
@@ -415,8 +444,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         }
         
         .bhilton {
-        height: 250px;
-        width: 48% !important;
+        max-height: 350px;
         vertical-align: top;
         margin-left:  15px;
         }
@@ -610,9 +638,6 @@ padding-top: 4%;
         font-weight: bold;
         }
         
-        #content img {
-        width: 90%;
-        }
 
 
         .map {
@@ -627,8 +652,6 @@ padding-top: 4%;
         }
         
         .bhilton {
-        height: 250px;
-        width: 48% !important;
         vertical-align: top;
         margin-left:  15px;
         }
