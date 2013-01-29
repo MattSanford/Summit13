@@ -14,7 +14,7 @@ text-indent: 0;
 img{
 height: auto;
 width: auto;
-margin: 15px auto 0 auto;
+margin: 0 auto 0 auto;
 }
         .pic, #pic {
         max-height: 400px;
@@ -132,6 +132,7 @@ text-align: center;
         margin: 0;
             }
     
+    @media all and (min-width: 1000px) {
         #top-nav li:hover {
         color: white;
         -webkit-transition: background .5s linear;
@@ -140,7 +141,7 @@ text-align: center;
         -moz-box-shadow:    0px 1px 30px rgba(255, 139, 26, 1);
         box-shadow:         0px 1px 30px rgba(255, 139, 26, 1); 
     }
-    
+}
     
 
 .wrapper, #wrapper {
@@ -252,6 +253,23 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
                 
             }
         }
+        @-webkit-keyframes colorflash1 {
+            from{
+                color: white;
+                
+            }
+            20%{
+                color: #BE6600;
+            }
+            80% {
+                color: #BE6600;
+            }
+            to{
+                color: white;
+                
+            }
+        }
+        
         
         .twitter-hashtag-button {
         margin:0 12px 0 -10px !important;
@@ -297,7 +315,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         .box {
             background-image: url("/images/pattern-5yxh.png");
             float: left;
-            margin: 0 25px 25px;
+            margin: 0 3% 2%;
             max-width: 15%;
             width: auto;
             padding: 15px;
@@ -311,7 +329,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
                 margin: -10px 0 0 25px;
                 position: absolute;
                 color: #BE6600;
-                -webkit-animation: colorflash;
+                -webkit-animation: colorflash1;
                 -webkit-animation-duration: 3s;
                 -webkit-animation-timing-function: linear;
                 -webkit-animation-iteration-count: infinite;
@@ -464,7 +482,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
     position: relative;
     border: 1px solid black;
     margin: 15px auto 0 auto;
-    display: block; 
+    display: none; 
     border-radius: 5px;
     -webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
     -moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
@@ -541,9 +559,11 @@ header {
     #top-nav {
     opacity: 0.95;
     margin-left: 5%;
-    max-width: 630px;
+    max-width: 80%;
+    width: auto;
     padding: 5px 0 5px 0;
     }
+
 
 
             
