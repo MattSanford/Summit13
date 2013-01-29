@@ -283,7 +283,6 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
     max-width:880px;
     vertical-align: middle;
     text-align: center;
-    background: black;
     padding: 1.5%;
     display: block;
     color: white;
@@ -291,16 +290,15 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     o-boder-radius: 3px;
-    -webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
-    -moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
-    box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
     }
 
         .box {
-            background-image: url("/images/gray-jean.png"); 
+            background-image: url("/images/pattern-5yxh.png");
             float: left;
             margin: 0 25px 25px;
-            max-width: 115px;
+            max-width: 15%;
             width: auto;
             padding: 15px;
             border-radius: 5px;
@@ -333,10 +331,10 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
             }
 
             .box-content p, .box p {
-                color: black;
+                color: white;
             }
         .sm.box {
-            min-width: 20%;
+            min-width: 22%;
 
         }
 
@@ -617,27 +615,15 @@ padding-top: 4%;
     
     
     #content {
-    height: 500px auto;
+
     vertical-align: middle;
     padding: 15px;
-    display: block;
-    color: white;
-    -webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
-    -moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
-    box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
     }
-                #content h3 {
-        color: white;
+        #content h3 {
+        color: black;
         }
     
-        #content span { 
-        font-size: 16px;
-        }
 
-        #content p {
-        color: white;
-        display: inline;
-        }
         
         .bbspan {
         font-size: 17px;
