@@ -151,9 +151,9 @@ new TWTR.Widget({
 
 		</div>
 		<div class="wrapper" id="wrapper">
-			<div class="sm box"><h4>Registration Info</h4></div>
-			<div class="sm box"><h4>Hotel</h4></div>
-			<div class="sm box"><h4>Volunteer Opportunites</h4></div>
+			<div class="sm box"><h4>Registration<br> Information</h4></div>
+			<div class="sm box"><h4>Hotel<br> Website</h4></div>
+			<div class="sm box"><h4>Volunteer<br> Opportunites</h4></div>
 			<div class="clearing"></div>
 		</div>
 	</div>
