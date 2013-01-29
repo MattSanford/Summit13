@@ -128,22 +128,22 @@ new TWTR.Widget({
 	<div id="content">
 		<div class="wrapper">
 			<a href="#"><section class="box">
-				<h1 class="box-heading">Text</h1>
+				<h3 class="box-heading">Video Contest</h3>
 				<img class="box-pic" src="#">
 				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
 			</section></a>
 			<a href="#"><section class="box">
-				<h1 class="box-heading">Text</h1>
+				<h3 class="box-heading">Mid-Atlantic's Got Talent</h3>
 				<img class="box-pic" src="#">
 				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
 			</section></a>
 			<a href="#"><section class="box">
-				<h1 class="box-heading">Text</h1>
+				<h3 class="box-heading">Transportation</h3>
 				<img class="box-pic" src="#">
 				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
 			</section></a>
 			<a href="#"><section class="box">
-				<h1 class="box-heading">Text</h1>
+				<h3 class="box-heading">Prayer</h3>
 				<img class="box-pic" src="#">
 				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
 			</section></a>
@@ -151,13 +151,16 @@ new TWTR.Widget({
 
 		</div>
 		<div class="wrapper" id="wrapper">
-			<div class="sm box"><p>Registration Info</p></div>
-			<div class="sm box"><p>Hotel</p></div>
-			<div class="sm box"><p>Transportation</p></div>
+			<div class="sm box"><h4>Registration Info</h4></div>
+			<div class="sm box"><h4>Hotel</h4></div>
+			<div class="sm box"><h4>Volunteer Opportunites</h4></div>
 			<div class="clearing"></div>
 		</div>
 	</div>
-	
+	<div class="bottombar weekly">
+		<h2>Check out this new video!</h2>
+		<img src="#" class="weekly-vid">
+	</div>
 	<div class="bottombar">
 		<img class="pic left" src="/images/Klingenmeier-Lesli - 2010.JPG" /><p>This first Foursquare Youth Summit in the East since the 1990's is coming to Baltimore, Maryland April 12-14, 2013, and you are invited! This will be a gathering of youth from the eastern part of the United States together in one place to IMAGINE the possibilities of how God wants to use each of them to change the world around them.   The weekend will have an evangelistic focus (so bring lots of friends) with a strong discipleship follow-up in an environment of engaging worship, interactive ministry, and lots of fun!  Imagine Foursquare Summit East 13 is designed to be a catalyst to help students and NextGen leaders dream big dreams, realize bold visions, and expand their minds to IMAGINE the incredible plans God has in store for each of them as they follow Him.<br><em>Check out the information and come IMAGINE the possibilities together in Baltimore!</em><br>Lesli Klingenmeier<br>Mid-Atlantic NextGen Director</p>
 	</div>

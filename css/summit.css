@@ -301,7 +301,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
     max-width:880px;
     vertical-align: middle;
     text-align: center;
-    padding: 1.5%;
+    padding: 1%;
     display: block;
     color: white;
     border-radius: 3px;
@@ -316,9 +316,9 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
             background-image: url("/images/pattern-5yxh.png");
             float: left;
             margin: 0 3% 2%;
-            max-width: 15%;
+            max-width: 16%;
             width: auto;
-            padding: 15px;
+            padding: 5px;
             border-radius: 5px;
             -moz-box-shadow: 1px 1px 20px #ffffff;
             -webkit-box-shadow: 1px 1px 20px #ffffff;
@@ -326,8 +326,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         }
 
             .box-heading {
-                margin: -10px 0 0 25px;
-                position: absolute;
+                margin: 0 0 0 0;
                 color: #BE6600;
                 -webkit-animation: colorflash1;
                 -webkit-animation-duration: 3s;
@@ -355,6 +354,10 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
             min-width: 22%;
             float: left;
             margin: 0 3.5%;
+        }
+
+        .sm.box h4 {
+            margin: 5px;
         }
 
     .div-list {
@@ -472,6 +475,17 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         margin-left:  15px;
         }
 
+    .bottombar.weekly {
+        display: block;
+    }
+
+    .weekly-vid {
+        height: 450px;
+        width: 800px;
+        border: 1px solid black;
+        margin: 2% auto;
+        display: block;
+    }
 
     .bottombar {
     height: 200px auto;
