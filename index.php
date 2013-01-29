@@ -67,7 +67,7 @@ if (document.images) {
 	</ul>
 
 </header>
-<div id="wrapper">
+<div class="wrapper">
 		<div id="sidebar-left">
 			<ul id="checkout-nav">
 				<a href="http://www.facebook.com/FoursquareSummitEast"target="blank"><li id="facebook">
@@ -126,27 +126,36 @@ new TWTR.Widget({
 	<p class="callout-text">Be sure to use the buttons to get the word out about summit!</p>
 	</div>
 	<div id="content">
-		<section class="box">
-			<h1 class="box-heading">Text</h1>
-			<img class="box-pic" src="#">
-			<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
-		</section>
-		<section class="box">
-			<h1 class="box-heading">Text</h1>
-			<img class="box-pic" src="#">
-			<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
-		</section>
-		<section class="box">
-			<h1 class="box-heading">Text</h1>
-			<img class="box-pic" src="#">
-			<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
-		</section>
-		<section class="box">
-			<h1 class="box-heading">Text</h1>
-			<img class="box-pic" src="#">
-			<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
-		</section>
-		<div class="clearing"></div>
+		<div class="wrapper">
+			<a href="#"><section class="box">
+				<h1 class="box-heading">Text</h1>
+				<img class="box-pic" src="#">
+				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
+			</section></a>
+			<a href="#"><section class="box">
+				<h1 class="box-heading">Text</h1>
+				<img class="box-pic" src="#">
+				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
+			</section></a>
+			<a href="#"><section class="box">
+				<h1 class="box-heading">Text</h1>
+				<img class="box-pic" src="#">
+				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
+			</section></a>
+			<a href="#"><section class="box">
+				<h1 class="box-heading">Text</h1>
+				<img class="box-pic" src="#">
+				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
+			</section></a>
+			<div class="clearing"></div>
+
+		</div>
+		<div class="wrapper">
+			<section class="sm box"><p>Registration Info</p></section>
+			<section class="sm box"><p>Hotel</p></section>
+			<section class="sm box"><p>Transportation</p></section>
+			<div class="clearing"></div>
+		</div>
 	</div>
 	
 	<div class="bottombar">
