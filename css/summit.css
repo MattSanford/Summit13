@@ -297,8 +297,8 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
     
 
     #content {
-    height: 500px auto;
-    max-width:880px;
+    width: auto;
+    max-width: 1000px;
     vertical-align: middle;
     text-align: center;
     padding: 1%;
@@ -315,9 +315,10 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         .box {
             background-image: url("/images/pattern-5yxh.png");
             float: left;
-            margin: 0 2% 2%;
-            max-width: 19%;
-            height: 290px;
+            margin: 0 2.5% 2%;
+            max-width: 160px;
+            width: auto;
+            min-height: 290px;
             width: auto;
             padding: 5px;
             border-radius: 5px;
@@ -353,6 +354,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
             }
         .sm.box {
             min-width: 24%;
+            min-height: 0;
             height: auto;
             float: left;
             margin: 0 3.5%;
@@ -360,6 +362,10 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 
         .sm.box h4 {
             margin: 5px;
+        }
+
+        .box.right {
+            float: right;
         }
 
     .div-list {
@@ -371,6 +377,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 
     .clearing {
         clear: both;
+        width: 100%;
     }
 
     .button{
@@ -639,7 +646,7 @@ padding-top: 4%;
 
     #main {
     margin: 15px 5% 0 5%;
-    max-width: 900px;
+    max-width: 1000px;
     width: 85%;
     display: inline-block;
     -webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);

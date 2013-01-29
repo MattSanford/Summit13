@@ -137,18 +137,17 @@ new TWTR.Widget({
 				<img class="box-pic" src="#">
 				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
 			</section></a>
-			<a href="#"><section class="box">
+			<a href="#"><section class="box right">
 				<h3 class="box-heading">Transportation</h3>
 				<img class="box-pic" src="#">
 				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
 			</section></a>
-			<a href="#"><section class="box">
+			<a href="#"><section class="box right">
 				<h3 class="box-heading">Prayer</h3>
 				<img class="box-pic" src="#">
 				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
 			</section></a>
 			<div class="clearing"></div>
-
 		</div>
 		<div class="wrapper" id="wrapper">
 			<div class="sm box"><h4>Registration<br> Information</h4></div>
