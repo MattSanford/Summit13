@@ -58,12 +58,12 @@ if (document.images) {
 
 <header>
 	<ul id="top-nav">
-		<li><a href="index.php">Home</a></li>
-		<li class="right-item"><a href="location.php">Location</a></li>
-		<li><a href="registration.php">Registration</a></li>
-		<li class="right-item"><a href="schedule.php">Schedule</a></li>
-		<li><a href="things-to-do.php">Things To Do</a></li>
-		<li class="right-item"><a href="leaders.php">Leaders</a></li>		
+		<a href="/"><li>Home</li></a>
+		<a href="/Location"><li>Location</li></a>
+		<a href="/Registration"><li>Registration</li></a>
+		<a href="/Schedule"><li>Schedule</li></a>
+		<a href="/Things-To-Do"><li>Things To Do</li></a>
+		<a href="/Leaders"><li>For Leaders</li></a>			
 	</ul>
 
 </header>
@@ -125,34 +125,34 @@ new TWTR.Widget({
 	<div class="fb-like" data-href="http://www.facebook.com/FoursquareSummitEast" data-send="true" data-width="450" data-show-faces="false"></div>
 	<p class="callout-text">Be sure to use the buttons to get the word out about summit!</p>
 	</div>
-	<div id="content">
+	<div class="content">
 		<div class="wrapper">
-			<a href="#"><section class="box">
+			<a class="fold-down" href="#"><section class="box">
 				<h3 class="box-heading">Video Contest</h3>
 				<img class="box-pic" src="#">
-				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
+				<aside class="box-content"><p>Get your group together and make a video letting us know why you are the most excited about the Imagine Summit! </p></aside>
 			</section></a>
-			<a href="#"><section class="box">
+			<a class="fold-down" href="/Mid-atlantics-got-talent/"><section class="box">
 				<h3 class="box-heading">Mid-Atlantic's Got Talent</h3>
 				<img class="box-pic" src="#">
-				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
+				<aside class="box-content"><p>Think you've got talent? We want to see it! Click the link for more info!</p></aside>
 			</section></a>
-			<a href="#"><section class="box right">
+			<a class="fold-down" href="/leaders.php"><section class="box right">
 				<h3 class="box-heading">Transportation</h3>
 				<img class="box-pic" src="#">
-				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
+				<aside class="box-content"><p>Getting there is part of the fun! Let us help you get to Summit!</p></aside>
 			</section></a>
-			<a href="#"><section class="box right">
+			<a class="fold-down" href="#"><section class="box right">
 				<h3 class="box-heading">Prayer</h3>
 				<img class="box-pic" src="#">
-				<aside class="box-content"><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p></aside>
+				<aside class="box-content"><p> </p></aside>
 			</section></a>
 			<div class="clearing"></div>
 		</div>
 		<div class="wrapper" id="wrapper">
-			<div class="sm box"><h4>Registration<br> Information</h4></div>
-			<div class="sm box"><h4>Hotel<br> Website</h4></div>
-			<div class="sm box"><h4>Volunteer<br> Opportunites</h4></div>
+			<div class="sm" id="box"><h4>Registration<br> Information</h4></div>
+			<div class="sm" id="box"><h4>Hotel<br> Website</h4></div>
+			<div class="sm" id="box"><h4>Volunteer<br> Opportunites</h4></div>
 			<div class="clearing"></div>
 		</div>
 	</div>
