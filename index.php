@@ -126,7 +126,7 @@ new TWTR.Widget({
 	<p class="callout-text">Be sure to use the buttons to get the word out about summit!</p>
 	</div>
 	<div class="content">
-		<div class="wrapper">
+		<div class="box-wrapper">
 			<a class="fold-down" href="#"><section class="box">
 				<h3 class="box-heading">Video Contest</h3>
 				<img class="box-pic" src="#">
@@ -149,7 +149,7 @@ new TWTR.Widget({
 			</section></a>
 			<div class="clearing"></div>
 		</div>
-		<div class="wrapper" id="wrapper">
+		<div class="box-wrapper" id="wrapper">
 			<div class="sm" id="box"><h3>Registration<br> Information</h3></div>
 			<div class="sm" id="box"><h3>Hotel<br> Website</h3></div>
 			<div class="sm" id="box"><h3>Volunteer<br> Opportunites</h3></div>
