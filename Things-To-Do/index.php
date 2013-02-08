@@ -1,6 +1,6 @@
 <?php $pageTitle="<title>Things To Do For Forsquare Summit East '13</title>"?>
-<?php include("header.php"); ?>
-<?php include("main.php"); ?>
+<?php include("../header.php"); ?>
+<?php include("../main.php"); ?>
 <div id="content">
 	<div id="ib-span-wrap">
 	<h3>Click on any of these links to take you to google maps for directions!</h3><br>
@@ -56,4 +56,4 @@
 </div>
 </div>
 </div>
-<?php include("footer.php"); ?>
+<?php include("../footer.php"); ?>

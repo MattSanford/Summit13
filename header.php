@@ -1,8 +1,8 @@
 <html>
 <head>
 <?php echo $pageTitle; ?>
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet"  href="css/summit.css">
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet"  href="/css/summit.css">
 <link href='http://fonts.googleapis.com/css?family=Poiret+One|Raleway:400,300' rel='stylesheet' type='text/css'>
 <!-- Standard iPhone --> 
 <link rel="apple-touch-icon" sizes="57x57" href="IOS-Icons/57x57.png" />
@@ -48,12 +48,12 @@
 <header>
 
 	<ul id="top-nav">
-		<a href="index.php"><li>Home</li></a>
-		<a href="location.php"><li>Location</li></a>
-		<a href="registration.php"><li>Registration</li></a>
-		<a href="schedule.php"><li>Schedule</li></a>
-		<a href="things-to-do.php"><li>Things To Do</li></a>
-		<a href="leaders.php"><li>For Leaders</li></a>		
+		<a href="/"><li>Home</li></a>
+		<a href="/Location/"><li>Location</li></a>
+		<a href="/Registration/"><li>Registration</li></a>
+		<a href="/Schedule/"><li>Schedule</li></a>
+		<a href="/Things-To-Do/"><li>Things To Do</li></a>
+		<a href="/Leaders/"><li>For Leaders</li></a>		
 	</ul>
 
 </header>

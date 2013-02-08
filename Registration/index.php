@@ -1,6 +1,6 @@
 <?php $pageTitle="<title>Registration for Foursquare Summit East '13</title>"?>
-<?php include("header.php"); ?>
-<?php include("main.php"); ?>
+<?php include("../header.php"); ?>
+<?php include("../main.php"); ?>
 	<div id="content">
 	<span class="bbspan">Online Registration:</span><span> <a href="http://www.acteva.com/booking.cfm?bevaID=233347&CFID=8647005&CFTOKEN=5b10ac280cb30e84-428A109F-3048-344A-3CF13D5FB89DC79E" target="blank">Click here!</a>  Choose "individual registration" and then the of quantity registrations you are ordering from the list provided.  Add the names of those you are registering at the bottom of the registration form. </span> <br><br>
 	<span class="bbspan">Hotel Room Registration:</span><a href="http://www.hilton.com/en/hi/groups/personalized/B/BWICCHH-MAY-20130412/index.jhtml?WT.mc_id=POG" target="blank">Click here to book your room for Summit!</a>
@@ -20,4 +20,4 @@
 	</div>
 	</div>
 </div>
-<?php include("footer.php"); ?>
+<?php include("../footer.php"); ?>

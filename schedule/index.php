@@ -1,6 +1,6 @@
 <?php $pageTitle="<title>Daily Schedule for Foursquare Summit East '13</title>"?>
-<?php include("header.php"); ?>
-<?php include("main.php"); ?>
+<?php include("../header.php"); ?>
+<?php include("../main.php"); ?>
 		<div id="content">
 			<span class="bbspan">Friday Night: April 12<sup>th</sup></span><br/>
 				<span>Registration</span><br/>
@@ -20,4 +20,4 @@
 
 </div>
 </div>
-<?php include("footer.php"); ?>
+<?php include("../footer.php"); ?>

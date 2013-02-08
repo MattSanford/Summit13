@@ -134,7 +134,7 @@ new TWTR.Widget({
 			</section></a>
 			<a class="fold-down" href="/Mid-atlantics-got-talent/"><section class="box">
 				<h3 class="box-heading">Mid-Atlantic's Got Talent</h3>
-				<img class="box-pic" src="#">
+				<img class="box-pic" src="/images/summittalent.jpg">
 				<aside class="box-content"><p>Think you've got talent? We want to see it! Click the link for more info!</p></aside>
 			</section></a>
 			<a class="fold-down" href="/leaders.php"><section class="box right">
