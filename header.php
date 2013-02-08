@@ -19,7 +19,7 @@
 <meta property="og:image" content="http://foursquaresummiteast.org/images/Imagine Logo-Flyer.png">
 <meta name="description" content="Foursquare Summit East 2013 - Youth Summit 2013 - Imagine - Baltimore MD - Foursquare Mid-Atlantic - Lesli Klingenmeir - Brightwork - Cornell jordan">
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-<script type="text/javascript" src="showstuff.js"></script>
+<script type="text/javascript" src="/showstuff.js"></script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];

@@ -2,8 +2,8 @@
 <?php include("../header.php"); ?>
 <?php include("../main.php"); ?>
 	<div id="content">
-	<span class="bbspan">Online Registration:</span><span> <a href="http://www.acteva.com/booking.cfm?bevaID=233347&CFID=8647005&CFTOKEN=5b10ac280cb30e84-428A109F-3048-344A-3CF13D5FB89DC79E" target="blank">Click here!</a>  Choose "individual registration" and then the of quantity registrations you are ordering from the list provided.  Add the names of those you are registering at the bottom of the registration form. </span> <br><br>
-	<span class="bbspan">Hotel Room Registration:</span><a href="http://www.hilton.com/en/hi/groups/personalized/B/BWICCHH-MAY-20130412/index.jhtml?WT.mc_id=POG" target="blank">Click here to book your room for Summit!</a>
+	<span class="bbspan">Online Registration:</span><p><a href="http://www.acteva.com/booking.cfm?bevaID=233347&CFID=8647005&CFTOKEN=5b10ac280cb30e84-428A109F-3048-344A-3CF13D5FB89DC79E" target="blank">Click here!</a>  Choose "individual registration" and then the of quantity registrations you are ordering from the list provided.  Add the names of those you are registering at the bottom of the registration form. </p> <br><br>
+	<span class="bbspan">Hotel Room Registration:</span><p><a href="http://www.hilton.com/en/hi/groups/personalized/B/BWICCHH-MAY-20130412/index.jhtml?WT.mc_id=POG" target="blank">Click here to book your room for Summit!</a></p>
 	<h3>Registration: Per Person</h3>
 	<h5>(Includes Saturday Lunch, late night activities and snacks and all summit materials)</h5>
 	<ul>
@@ -16,7 +16,7 @@
 		<span class="bbspan">$145.00 per night + tax</span><br>	
 		<h3 style="display: none;">Leaders:</h3>
 	<span class="bbspan" style="display: none;">Check out the "For Leaders" page to access online registration and direct link to the Baltimore Hilton room reservations.</span>
-		<img src="images/hilton_baltimore.jpg" class="bhilton" />
+		<img src="/images/hilton_baltimore.jpg" class="bhilton" />
 	</div>
 	</div>
 </div>

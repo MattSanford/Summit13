@@ -3,7 +3,7 @@
 <?php include("../main.php"); ?>
 <div id="content">
 <h1>For leaders Only<h1>
-	<h3>Click <a href="Summit Leader Resources.zip">here</a> to download all the resources for Summit</h3>
+	<h3>Click <a href="/Summit Leader Resources.zip">here</a> to download all the resources for Summit</h3>
 </div>
 
 </div>
