@@ -35,7 +35,7 @@
 <script type="text/javascript">
 if (document.images) {
     img1 = new Image();
-    img1.src = "images/Klingenmeier-Lesli - 2010.JPG";
+    img1.src = "/images/summittalent.jpg";
     img2 = new Image();
     img2.src = "images/harriet.gif";
     img3 = new Image();
@@ -127,26 +127,26 @@ new TWTR.Widget({
 	</div>
 	<div class="content">
 		<div class="box-wrapper">
-			<a class="fold-down" href="#"><section class="box">
+			<section class="box">
 				<h3 class="box-heading">Video Contest</h3>
-				<img class="box-pic" src="#">
+				<img id="imageID" class="box-pic" src="#">
 				<aside class="box-content"><p>Get your group together and make a video letting us know why you are the most excited about the Imagine Summit! </p></aside>
-			</section></a>
-			<a class="fold-down" href="/Mid-atlantics-got-talent/"><section class="box">
+			</section>
+			<section class="box">
 				<h3 class="box-heading">Mid-Atlantic's Got Talent</h3>
-				<img class="box-pic" src="/images/summittalent.jpg">
+				<img id="imageID" class="box-pic" src="/images/summittalent.jpg">
 				<aside class="box-content"><p>Think you've got talent? We want to see it! Click the link for more info!</p></aside>
-			</section></a>
-			<a class="fold-down" href="/leaders.php"><section class="box right">
+			</section>
+			 <section class="box right">
 				<h3 class="box-heading">Transportation</h3>
-				<img class="box-pic" src="#">
+				<img id="imageID" class="box-pic" src="#">
 				<aside class="box-content"><p>Getting there is part of the fun! Let us help you get to Summit!</p></aside>
-			</section></a>
-			<a class="fold-down" href="#"><section class="box right">
+			</section>
+			<section class="box right">
 				<h3 class="box-heading">Prayer</h3>
-				<img class="box-pic" src="#">
+				<img id="imageID" class="box-pic" src="#">
 				<aside class="box-content"><p> </p></aside>
-			</section></a>
+			</section>
 			<div class="clearing"></div>
 		</div>
 		<div class="box-wrapper" id="wrapper">
