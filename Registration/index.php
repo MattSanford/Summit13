@@ -10,7 +10,7 @@
 		<li><span>$75 (Through January 15<sup>th</sup>)<span></li>
 		<li><span>$85 (Through March 31<sup>st</sup>)</span></li>
 	</ul>			
-	<p class="download"><a href="Summit Student and Leader Registrationpdf.pdf.zip">Download PDF Student &amp Leader Registration Form Here</a></p>
+	<p class="download"><a href="/Summit Student and Leader Registrationpdf.pdf.zip">Download PDF Student &amp Leader Registration Form Here</a></p>
 
 	<h3>Baltimore Hilton Room Rates</h3>
 		<span class="bbspan">$145.00 per night + tax</span><br>	
