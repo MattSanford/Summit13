@@ -129,13 +129,13 @@ new TWTR.Widget({
 		<div class="box-wrapper">
 			<section class="box">
 				<h3 class="box-heading">Video Contest</h3>
-				<img id="imageID" class="box-pic" src="#">
+				<img id="imageID" class="box-pic" src="/images/348.png">
 				<aside class="box-content"><p>Get your group together and make a video letting us know why you are the most excited about the Imagine Summit! </p></aside>
 			</section>
 			<section class="box">
 				<h3 class="box-heading">Mid-Atlantic's Got Talent</h3>
 				<img id="imageID" class="box-pic" src="/images/summittalent.jpg">
-				<aside class="box-content"><p>Think you've got talent? We want to see it! Click the link for more info! <a href="/Mid-Atlantic's-Got-Talent/">Here.</a></p></aside>
+				<aside class="box-content"><p>Think you've got talent? We want to see it! Click the link for more info! <a href="/Mid-Atlantic's-Got-Talent/">Click Here</a></p></aside>
 			</section>
 			 <section class="box right">
 				<h3 class="box-heading">Transportation</h3>
@@ -145,7 +145,7 @@ new TWTR.Widget({
 			<section class="box right">
 				<h3 class="box-heading">Prayer</h3>
 				<img id="imageID" class="box-pic" src="#">
-				<aside class="box-content"><p> </p></aside>
+				<aside class="box-content"><p>Imagine Summit Paryer points. Please pray for us! <a href="/Prayer/">Click Here</a></p></aside>
 			</section>
 			<div class="clearing"></div>
 		</div>

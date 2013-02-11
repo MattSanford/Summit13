@@ -3,12 +3,12 @@
 		<div id="sidebar-left">
 			<ul id="checkout-nav">
 				<a href="http://www.facebook.com/FoursquareSummitEast"target="blank"><li id="facebook">
-					<img class="icon" src="images/f_logo.png" />
+					<img class="icon" src="/images/f_logo.png" />
 					<h2>Facebook</h2>
 					<p>Check out our page!</p>
 				</li></a>
 				<a href="http://twitter.com/SummitEast13" target="blank"><li id="twitter">
-					<img class="icon" src="images/twitter-bird-white-on-blue.png" />				
+					<img class="icon" src="/images/twitter-bird-white-on-blue.png" />				
 					<h2>Twitter</h2>
 					<p>Follow Us on Twitter!</p>
 				</li></a>
@@ -48,11 +48,12 @@ new TWTR.Widget({
 </script>
 		</div>
 	</div>
-<div id="main" class="main2">
+<div id="main">
 	<div id="social-bar">
 <!-- Place this tag where you want the +1 button to render. -->
 		<div class="g-plusone" data-size="medium"></div>
 		<a href="https://twitter.com/intent/tweet?button_hashtag=FoursquareSummitEast" class="twitter-hashtag-button" data-related="summiteast13">Tweet #FoursquareSummitEast</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	<div class="fb-like" data-href="http://www.facebook.com/FoursquareSummitEast" data-send="true" data-width="450" data-show-faces="false"></div>
+	<p class="callout-text">Be sure to use the buttons to get the word out about summit!</p>
 	</div>
