@@ -140,7 +140,7 @@ new TWTR.Widget({
 			 <section class="box right">
 				<h3 class="box-heading">Transportation</h3>
 				<img id="imageID" class="box-pic" src="/images/Transportation.jpg">
-				<aside class="box-content"><p>Getting there is part of the fun! Let us help you get to Summit!</p></aside>
+				<aside class="box-content"><p>Getting there is part of the fun! Let us help you get to Summit!</p><h5>coming soon</h5></aside>
 			</section>
 			<section class="box right">
 				<h3 class="box-heading">Prayer</h3>
