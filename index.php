@@ -130,7 +130,7 @@ new TWTR.Widget({
 			<section class="box">
 				<h3 class="box-heading">Video Contest</h3>
 				<img id="imageID" class="box-pic" src="/images/348.png">
-				<aside class="box-content"><p>Get your group together and make a video letting us know why you are the most excited about the Imagine Summit! </p></aside>
+				<aside class="box-content"><p>Get your group together and make a video letting us know why you are the most excited about the Imagine Summit! <br><a href="/Video-Contest"> Click Here</a></p></aside>
 			</section>
 			<section class="box">
 				<h3 class="box-heading">Mid-Atlantic's Got Talent</h3>
