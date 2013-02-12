@@ -1,3 +1,4 @@
+<?php $pageTitle="<title>Mid-Atlantic's Got Talent</title>"?>
 <?php include ('../header.php'); ?>
 <?php include ('../main.php'); ?>
 <div class="content" id="content">
