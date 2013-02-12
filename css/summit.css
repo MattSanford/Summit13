@@ -88,11 +88,11 @@ overflow: hidden;
 
 
 header {
-text-align: center;
     max-height: 100px;
     height: 50%;
     text-align: center;
     padding: 3% 4% 0 6%;
+    margin-bottom: 2%;
 }
 
             
@@ -113,7 +113,6 @@ text-align: center;
     display: inline-block;
     border-radius: 10px;
     padding: 10px;
-    -webkit-transition: background .5s ease-in, ease-out;
     background-color: #003366;
     text-align: center;
     }
@@ -140,7 +139,6 @@ text-align: center;
     @media all and (min-width: 1000px) {
         #top-nav li:hover {
         color: white;
-        -webkit-transition: background .5s linear;
         background-color: #BE6600;
         -webkit-box-shadow: 0px 1px 30px rgba(255, 139, 26, 1);
         -moz-box-shadow:    0px 1px 30px rgba(255, 139, 26, 1);
@@ -157,14 +155,11 @@ text-align: center;
 
 
     #sidebar-left {
-    clear: left;
-    display: inline-block;
-    display: -moz-inline-stack;
-    *display: inline;
-    zoom: 1;
+    float: left;
+    display: block;
     vertical-align: top;
     width: 220px;
-    margin: 0 0 15px 0;
+    margin: 0 0 15px 2.222222%;
     border-radius: 5px;
     }
 
@@ -284,13 +279,11 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 
     #main {
     background-image: url("/images/gray-jean.png"); 
-    margin: 0 2% 0 2%;
+    margin: 0 2% 0 3%;
     max-width: 900px;
     width: 70%;
-    display: inline-block;
-    display: -moz-inline-stack;
-    *display: inline;
-    zoom: 1;
+    display: block;
+    float: left;
     -webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
     -moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
     box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
@@ -357,13 +350,6 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
                 display: block;
             }
 
-            .box-pic:hover {
-                height: 124px;
-                width: 224px;
-                float: left;
-                margin: 10px auto 10px -20px;
-            }
-
             #summit-talent {
                 height: 270px;
                 width: 480px;
@@ -391,7 +377,6 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 
             #videocontest {
                 background-image: url('/images/348.png');
-                z-index: 999;
             }
 
         .sm#box {
@@ -453,6 +438,10 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
     .button:hover {
         cursor: pointer;
     }
+        #hide-button {
+            display: none;
+        }
+
         #content h3 {
         color: white;
         }
@@ -542,17 +531,11 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         display: block;
         }
 
-    .bottombar.weekly {
-        display: block;
-    }
 
-    .weekly-vid {
-        height: 55.555555%;
-        width: 98.765432%;
-        border: 1px solid black;
-        margin: 2% auto;
-        display: block;
-    }
+        #y-player {
+            height: 56%;
+            width: 96%;
+        }
 
     .bottombar {
     height: 200px auto;
@@ -573,6 +556,10 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
     text-align: left;
     }
         
+        .bottombar.weekly {
+        display: block;
+        min-height: 270px !important;  
+    }  
                     .cj {
                     background-color: #46413B;
                         }           
@@ -626,39 +613,43 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         }
 
 
-#container {
-padding: 0 .5% 0 .5%;
-}
+        #container {
+        padding: 0 .5% 0 .5%;
+        }
 
 
 
 
-header {
-    padding: 3% 4% 0 2%;
-}
+        header {
+            padding: 3% 4% 0 2%;
+        }
             
     
     
-    #top-nav {
-    opacity: 0.95;
-    margin-left: 5%;
-    max-width: 80%;
-    width: auto;
-    padding: 5px 0 5px 0;
-    }
+        #top-nav {
+        opacity: 0.95;
+        margin-left: 5%;
+        max-width: 80%;
+        width: auto;
+        padding: 5px 0 5px 0;
+        }
 
 
-#wrapper {
-margin: 1% 1% 0 3.5%;
-padding-top: 4%;
-
-}
+        #wrapper {
+        margin: 1% 1% 0 3.5%;
+        padding-top: 4%
+        }
     
+        #sidebar-left {
+            float: none;
+            width: 90%;
+            margin: 0 auto;
+
+        }
 
 		#checkout-nav {
 		opacity: 1;
 		text-decoration: none;
-		display: inline-block;
 		margin: 0 2% 25px 5%;
 		padding:0;
 		}
@@ -695,211 +686,110 @@ padding-top: 4%;
         margin:0 12px 0 -10px !important;
         }
 
-    #main {
-    margin: 15px 5% 0 5%;
-    max-width: 1000px;
-    width: 85%;
-    display: inline-block;
-    -webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
-    -moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
-    box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
-    border-radius: 5px;
-        padding: 10px;
-
-    }
-    
-    
-    #content {
-
-    vertical-align: middle;
-    padding: 15px;
-    }
-        #content h3 {
-        color: black;
-        }
-    
-
-        
-        .bbspan {
-        font-size: 1.8em;
-        font-weight: bold;
-        }
-        
-
-
-        .map {
-        vertical-align: top;
-        display:inline-block;
-        float: left;
-        }
-        
-        small a{
-        float: left;
-        clear: left;
-        }
-        
-        .bhilton {
-        vertical-align: top;
-        margin-left:  15px;
-        }
-
-        .box:before {
-            content: "hover";
-            text-transform: capitalize;
-        }
-
-
-
-        .box:hover, .box.right:hover {
+        #main {
+        margin: 15px auto 0 auto;
+        max-width: 1000px;
+        width: 85%;
+        float: none;
+        -webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
+        -moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
+        box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
+        border-radius: 5px;
             padding: 10px;
-        }
-        .box:hover > .box-content p, .box p {
-            display: block;
-            animation: appear .3s linear;
-            -webkit-animation: appear .3s linear;
-        }
 
-        .box:hover, .box.right:hover {
-            animation: gettall .3s ease-in;
-            -webkit-animation: gettall .3s ease-in;
-            -moz-animation: gettall .3s ease-in;
-            -o-animation: gettall .3s ease-in;
-            height: 250px;
         }
+        
+        
+        #content {
 
-        /* Keyframes*/
+        vertical-align: middle;
+        padding: 15px;
+        }
+            #content h3 {
+            color: black;
+            }
+        
 
-        @keyframes gettall {
-            from {
-                height: 150px;
+            
+            .bbspan {
+            font-size: 1.8em;
+            font-weight: bold;
             }
-            to {
-                height: 250px;
-            }
-        }
-                @-webkit-keyframes gettall {
-            from {
-                height: 150px;
-            }
-            to {
-                height: 250px;
-            }
-        }
-                @-moz-keyframes gettall {
-            from {
-                height: 150px;
-            }
-            to {
-                height: 250px;
-            }
-        }
-                @-o-keyframes gettall {
-            from {
-                height: 150px;
-            }
-            to {
-                height: 250px;
-            }
-        }
+            
 
 
-        @-webkit-keyframes appear {
-            from {
-                display: none;
-            }
-
-            to {
-                display: block;
-            }
-        }
-
-        @keyframes getsmall {
-            from {
-                height: 150px;
-            }
-            to {
-                height: 250px;
-            }
-        }
-                @-webkit-keyframes getsmall {
-            from {
-                height: 250px;
-            }
-            to {
-                height: 150px;
-            }
-        }
-                @-moz-keyframes getsmall {
-            from {
-                height: 150px;
-            }
-            to {
-                height: 250px;
-            }
-        }
-                @-o-keyframes getsmall {
-            from {
-                height: 250px;
-            }
-            to {
-                height: 150px;
-            }
-        }
-
-
-        .box-wrapper {
-        }
-        .box, .box.right {
-            min-height: 0;
-            height: 150px;
-            width: 38.888888%;
+            .map {
+            vertical-align: top;
+            display:inline-block;
             float: left;
-            margin: 2.5% 3.75%;
-            animation: getsmall .5s ease-in;
-            -webkit-animation: getsmall .5s ease-in;
-            -moz-animation: getsmall .5s ease-in;
-            -o-animation: getsmall .5s ease-in;
+            }
+            
+            small a{
+            float: left;
+            clear: left;
+            }
+            
+            .bhilton {
+            vertical-align: top;
+            margin-left:  15px;
+            }
 
+     
+            .box-wrapper {
+            }
+            .box, .box.right {
+                min-height: 250px;
+                width: 38.888888%;
+                float: left;
+                margin: 2.5% 3.75%;
+                animation: getsmall .5s ease-in;
+                -webkit-animation: getsmall .5s ease-in;
+                -moz-animation: getsmall .5s ease-in;
+                -o-animation: getsmall .5s ease-in;
+
+            }
+
+            .box:nth-child(1) {
+                margin-left: 3%;
+            }
+
+
+            .sm#box {
+                display: block;
+                float: none;
+                width: 80%;
+                margin: 1% auto;
+            }
+
+        .bottombar {
+        height: auto;
+        padding: 15px;
+        position: relative;
+        border: 1px solid black;
+        margin: 5% 0 5% 0%;
+        margin-left: auto;
+        margin-right: auto;
+        display: none; 
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
+        -moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
+        box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
         }
+        
 
-        .box:nth-child(1) {
-            margin-left: 3%;
+        #footer {
+        max-height: 50px;
+        height: 100%;
+        background-color: black;
+        opacity: 0.8;
+        color: white;
+        margin: 50px 0 0 0;
+        border-radius: 5px 5px 0 0;
+        text-align: center;
+        overflow: hidden;
         }
-        .box-content p, .box p {
-            display: none;
-        }
-
-
-    .bottombar {
-    height: auto;
-    padding: 15px;
-    position: relative;
-    border: 1px solid black;
-    margin: 5% 0 5% 0%;
-    margin-left: auto;
-    margin-right: auto;
-    display: none; 
-    border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
-    -moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
-    box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
     }
-    
-
-    #footer {
-    max-height: 50px;
-    height: 100%;
-    background-color: black;
-    opacity: 0.8;
-    color: white;
-    margin: 50px 0 0 0;
-    border-radius: 5px 5px 0 0;
-    text-align: center;
-    overflow: hidden;
-    }
-}
-
-@media all and (max-width: 700px){
+@media all and (max-width: 750px){
     .div-list {
         float: none;
         width: 100%; 
@@ -907,14 +797,38 @@ padding-top: 4%;
     .button {
         margin-top: 15px;
     }
+    #hide-button {
+        display: block;
+    }
+     .box-content {
+        display: none;
+    }
+}
+@media all and (min-width:800px) {
+    
+            .box-pic:hover {
+                height: 124px;
+                width: 224px;
+                float: left;
+                margin: 10px auto 10px -20px;
+            }
+}
+
+@media all and (max-width: 600px){
+    .box, .box.right {
+        min-height: 0;
+        float: none;
+        width: 90%;
+        margin: 1% auto;
+    }
 }
 
 @media all and (max-width: 500px) {
-            .pic, #pic {
-            display: block;
-            max-width: 250px;
-            max-height: 300px;
-            margin: 0 auto .5 auto;
+        .pic, #pic {
+        display: block;
+        max-width: 250px;
+        max-height: 300px;
+        margin: 0 auto .5 auto;
         }
 
         .left {
@@ -926,75 +840,74 @@ padding-top: 4%;
             clear: both;
         }
 }
+@media only screen and (min-device-width:320px ) and (max-device-width: 480px) {
 
-    @media only screen and (min-device-width:320px ) and (max-device-width: 480px) {
-
-        .container {
+        #container {
             padding: 0;
         }
 
         #top-nav li{
             width: auto;
         }
-    #social-bar {
-    display: none;
-    }
-        .g-plusone {
-
-            display: none;
+        #social-bar {
+        display: none;
         }
+            .g-plusone {
 
-    header {
-        padding: 0;
-        margin: 0;
-        display: block;
-        max-height: 200px;
-    }
+                display: none;
+            }
 
-    #top-nav {
-        margin-left: 0;
-        max-width: 200px;
-        height: auto;
-        }
-    #top-nav li {
-        height: 100%;
-        width: 100%;
-    }
-
-    #top-nav li:hover {
-
-    }
-
-        #wrapper {
+        header {
             padding: 0;
-        }
-
-        #sidebar-left {
+            margin: 0;
             display: block;
-            width: 100%;
-            text-align: center;
-            margin: 0 0 15px;
-            zoom: 0;
+            max-height: 200px;
         }
 
-    #main {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
+        #top-nav {
+            margin-left: 0;
+            max-width: 200px;
+            height: auto;
+            }
+        #top-nav li {
+            height: 100%;
+            width: 100%;
+        }
 
-    #map {
-        width: 100% !important;
-        float: none;
-        display: block;
-    }
+        #top-nav li:hover {
 
-    .bhilton {
-        display: block;
-        width: 100% !important;
-        margin: 0 0 15px;
+        }
+
+            #wrapper {
+                padding: 0;
+            }
+
+            #sidebar-left {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin: 0 0 15px;
+                zoom: 0;
+            }
+
+        #main {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        #map {
+            width: 100% !important;
+            float: none;
+            display: block;
+        }
+
+        .bhilton {
+            display: block;
+            width: 100% !important;
+            margin: 0 0 15px;
+        }
     }
-}
 
 
 
