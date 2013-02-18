@@ -128,30 +128,30 @@ if (document.images) {
 		</div>
 		<div class="content">
 			<div class="box-wrapper">
-				<section class="box">
+				<div class="box">
 					<h3 class="box-heading">Video Contest</h3>
 					<img id="imageID" class="box-pic" src="/images/348.png">
 					<button class="button" id="hide-button" onclick="showstuff('v-c'); hidestuff('mad'); hidestuff('prayer');">Click</button>														
-					<aside class="box-content" id="v-c"><p>Get your group together and make a video letting us know why you are the most excited about the Imagine Summit! <br/><a href="/Video-Contest"> Click Here</a></p></aside>
-				</section>
-				<section class="box">
+					<div class="box-content" id="v-c"><p>Get your group together and make a video letting us know why you are the most excited about the Imagine Summit! <br/><a href="/Video-Contest"> Click Here</a></p></div>
+				</div>
+				<div class="box">
 					<h3 class="box-heading">Mid-Atlantic's Got Talent</h3>
 					<img id="imageID" class="box-pic" src="/images/summittalent.jpg">
 					<button class="button" id="hide-button" onclick="showstuff('mad'); hidestuff('v-c'); hidestuff('prayer');">Click</button>														
-					<aside class="box-content" id="mad"><p>Think you've got talent? We want to see it! Click the link for more info! <a href="/Mid-Atlantic's-Got-Talent/">Click Here.</a></p></aside>
-				</section>
-				 <section class="box right">
+					<div class="box-content" id="mad"><p>Think you've got talent? We want to see it! Click the link for more info! <a href="/Mid-Atlantic's-Got-Talent/">Click Here.</a></p></div>
+				</div>
+				 <div class="box right">
 					<h3 class="box-heading">Transportation</h3>
 					<img id="imageID" class="box-pic" src="/images/Transportation.jpg">
-					<aside class="box-content"><p>Getting there is part of the fun! Let us help you get to Summit!</p><h5>coming soon</h5></aside>
-				</section>
-				<section class="box right">
+					<div class="box-content"><p>Getting there is part of the fun! Let us help you get to Summit!</p><h5>coming soon</h5></div>
+				</div>
+				<div class="box right">
 					<h3 class="box-heading">Prayer</h3>
 					<img id="imageID" class="box-pic" src="/images/prayer-on-my-knees4.jpg">
 					<button class="button" id="hide-button" onclick="showstuff('prayer'); hidestuff('mad'); hidestuff('v-c');">click</button>														
 
-					<aside class="box-content" id="prayer"><p>Imagine Summit Paryer points. Please pray for us! <a href="/Prayer/">Click Here</a></p></aside>
-				</section>
+					<div class="box-content" id="prayer"><p>Imagine Summit Paryer points. Please pray for us! <a href="/Prayer/">Click Here</a></p></div>
+				</div>
 				<div class="clearing"></div>
 			</div>
 			<div class="box-wrapper" id="wrapper">
