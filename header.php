@@ -45,15 +45,13 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div id="container">
-<header>
-
-	<ul id="top-nav">
-		<a href="/"><li>Home</li></a>
-		<a href="/Location/"><li>Location</li></a>
-		<a href="/Registration/"><li>Registration</li></a>
-		<a href="/Schedule/"><li>Schedule</li></a>
-		<a href="/Things-To-Do/"><li>Things To Do</li></a>
-		<a href="/Leaders/"><li>For Leaders</li></a>		
-	</ul>
-
-</header>
+  <header class="head">
+    <nav id="top-nav">
+      <a href="/">Home</a>
+      <a href="/Location">Location</a>
+      <a href="/Registration">Registration</a>
+      <a href="/Schedule">Schedule</a>
+      <a href="/Things-To-Do">Things To Do</a>
+      <a href="/Leaders">For Leaders</a>      
+    </nav>
+  </header>

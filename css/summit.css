@@ -87,7 +87,7 @@ overflow: hidden;
 /* Desktops and laptops ----------- */
 
 
-header {
+.head {
     max-height: 100px;
     height: 50%;
     text-align: center;
@@ -101,43 +101,34 @@ header {
             width: 34px;
             margin: 0 10px 0 0;
             float: left;
-            display: inline-block;
+            display: block;
             border-radius: 3px;
             }
     
     
     #top-nav {
+    max-width: 850px;
     opacity: 0.95;
-    margin: 0 0 0 12%;
+    margin: 0 auto 0 auto;
     list-style: none;
-    display: inline-block;
+    display: block;
     border-radius: 10px;
     padding: 10px;
     background-color: #003366;
     text-align: center;
     }
 
-        #top-nav li {
-        display: inline;
+        #top-nav a {
         color: white;
         font-size: 2.4em;
         padding: 10px;
         width: 100px;
-        margin: 0 0 0 0;
-        }
-    
-        #top-nav li:nth-child(1) {
-        border: none;
-        }
-        
-        #top-nav a {
-        color: white;
         text-decoration: none;
         margin: 0;
             }
     
     @media all and (min-width: 1000px) {
-        #top-nav li:hover {
+        #top-nav a:hover {
         color: white;
         background-color: #BE6600;
         -webkit-box-shadow: 0px 1px 30px rgba(255, 139, 26, 1);
@@ -166,12 +157,6 @@ header {
         #sidebar-left h2 {
             margin: 0;
         }
-    
-    .t  {
--webkit-box-shadow: 0px 0px 30px rgba(255, 95, 0, 0.75);
--moz-box-shadow:    0px 0px 30px rgba(255, 95, 0, 0.75);
-box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
-    }
 
     .t p{
         font-size: 1em;
@@ -180,10 +165,14 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         #checkout-nav {
         opacity: 1;
         text-decoration: none;
-        display: inline-block;
+        display: block;
         margin: 0 0 25px 0;
         padding:0;
         font-family: 'Poiret One', cursive;
+        }
+
+        #checkout-nav a {
+            text-decoration: none;
         }
         
         .countdown {
@@ -197,7 +186,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         border: 1px solid black;
         border-radius: 5px;
         margin-top: 15px;
-        display: inline-block;
+        display: block;
         padding: 10px 0 0 10px;
         background-color: white;
         opacity: 0.9;
@@ -213,7 +202,6 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
             
             #facebook p, #facebook h2{
             color: #3B5998; 
-            display: inline-block;
             margin: 0;
             }
             
@@ -221,7 +209,6 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
              #twitter h2{
             margin:0;
             color: #4099FF !important;
-            display: inline-block;
             }
     
     #social-bar {
@@ -505,9 +492,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         }
         
         
-        .ib-span {
-        display: inline-block;
-        }
+
         
         .map {
         vertical-align: top;
@@ -620,7 +605,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 
 
 
-        header {
+        .head {
             padding: 3% 4% 0 2%;
         }
             
@@ -628,8 +613,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
     
         #top-nav {
         opacity: 0.95;
-        margin-left: 5%;
-        max-width: 80%;
+        margin: 2% auto;
         width: auto;
         padding: 5px 0 5px 0;
         }
@@ -662,7 +646,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
 		#checkout-nav li {
 		height: 50px;
 		max-width: 200px;
-		width: auto;
+        margin: 1% auto;
 		margin-top: 15px;
 		vertical-align: middle;
 		}
@@ -846,9 +830,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
             padding: 0;
         }
 
-        #top-nav li{
-            width: auto;
-        }
+
         #social-bar {
         display: none;
         }
@@ -857,7 +839,7 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
                 display: none;
             }
 
-        header {
+        .head {
             padding: 0;
             margin: 0;
             display: block;
@@ -865,18 +847,11 @@ box-shadow:         0px 0px 30px rgba(255, 95, 0, 0.75);
         }
 
         #top-nav {
-            margin-left: 0;
+            margin: 0 auto;
+            display: block;
             max-width: 200px;
             height: auto;
             }
-        #top-nav li {
-            height: 100%;
-            width: 100%;
-        }
-
-        #top-nav li:hover {
-
-        }
 
             #wrapper {
                 padding: 0;

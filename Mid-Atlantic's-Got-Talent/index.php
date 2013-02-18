@@ -6,7 +6,7 @@
 	<p>Foursquare Youth-we know you got talent and now we want you to share it at the Imagine Youth Summit's Mid-Atlantic's Got Talent Late Night Show on Saturday, April 13. Whether you or your group can sing, juggle flaming batons, have a band or line dance to the Star Spangled Banner, we want to see it! Our goal is for all of our talents to leave the audience laughing hysterically, moved to tears, or inspired beyond belief!</p>
 	<h2>Mid-Atlantic's Got Talent Guidelines:</h2>
 	<ol>
-		<li><p>Your act must be god honoring and youth pastor approved.</p></li>
+		<li><p>Your act must be God honoring and youth pastor approved.</p></li>
 		<li><p>Your act can be up to 5 minutes in length and include as many students as you want.</p></li>
 		<li><p>All acts must submit a video audition by March 27 that represents your final talent including all participants who will be performing at Summit.</p></li>
 		<li><p>You must be able to provide all of your own props, instruments, and staging. We will provide up to 3 microphones, audio, and projection as needed.</p></li>
