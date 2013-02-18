@@ -30,6 +30,7 @@
 <!--[if lt IE 7]>
 <script src="dist/html5shiv.js"></script>
 <![endif]-->
+<script type="text/javascript" src="/html5shiv.js"></script>
 <script type="text/javascript" src="showstuff.js"></script>
 <script type="text/javascript">
 

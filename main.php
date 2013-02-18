@@ -1,5 +1,4 @@
-<div id="wrapper">
-
+<div class="wrapper">
 		<div id="sidebar-left">
 			<ul id="checkout-nav">
 				<a href="http://www.facebook.com/FoursquareSummitEast"target="blank"><li id="facebook">

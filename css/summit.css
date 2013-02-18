@@ -609,7 +609,6 @@ overflow: hidden;
         #top-nav {
         opacity: 0.95;
         margin: 2% auto;
-        width: auto;
         padding: 5px 0 5px 0;
         }
 
@@ -844,7 +843,6 @@ overflow: hidden;
             margin: 0 auto;
             display: block;
             max-width: 200px;
-            height: auto;
             }
 
         #top-nav li:hover {
