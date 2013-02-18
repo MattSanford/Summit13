@@ -58,16 +58,15 @@ if (document.images) {
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div id="container">
-
-	<header>
-		<ul id="top-nav">
-			<a href="/"><li>Home</li></a>
-			<a href="/Location"><li>Location</li></a>
-			<a href="/Registration"><li>Registration</li></a>
-			<a href="/Schedule"><li>Schedule</li></a>
-			<a href="/Things-To-Do"><li>Things To Do</li></a>
-			<a href="/Leaders"><li>For Leaders</li></a>			
-		</ul>
+	<header class="head">
+		<nav id="top-nav">
+			<a href="/">Home</a>
+			<a href="/Location">Location</a>
+			<a href="/Registration">Registration</a>
+			<a href="/Schedule">Schedule</a>
+			<a href="/Things-To-Do">Things To Do</a>
+			<a href="/Leaders">For Leaders</a>			
+		</nav>
 	</header>
 	<div class="wrapper">
 		<div id="sidebar-left">
@@ -149,8 +148,7 @@ if (document.images) {
 					<h3 class="box-heading">Prayer</h3>
 					<img id="imageID" class="box-pic" src="/images/prayer-on-my-knees4.jpg">
 					<button class="button" id="hide-button" onclick="showstuff('prayer'); hidestuff('mad'); hidestuff('v-c');">click</button>														
-
-					<aside class="box-content" id="prayer"><p>Imagine Summit Paryer points. Please pray for us! <a href="/Prayer/">Click Here</a></p></aside>
+					<aside class="box-content" id="prayer"><p>Imagine Summit Prayer points. Please pray for us! <a href="/Prayer/">Click Here</a></p></aside>
 				</section>
 				<div class="clearing"></div>
 			</div>
@@ -171,6 +169,7 @@ if (document.images) {
 </div>
 <div id="footer">
 <span class="Scripture">"No eye has seen, No ear has heard, No mind can IMAGINE what God has planned for those who love Him." 1 Corinthians 2:9</span>
+</div>
 </div>
 </body>
 </html>
