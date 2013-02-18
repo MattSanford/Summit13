@@ -29,12 +29,6 @@ margin: 0 auto 0 auto;
         max-height: 400px;
         height: auto;
         max-width: 350px;
-        width: auto;
-        display: inline-block;
-        display: -moz-inline-stack;
-        zoom: 1;
-        *display: inline;
-        _height: 125px;
         border-radius: 3px;
         -moz-border-radius: 3px;
         -webkit-border-radius: 3px;
@@ -99,7 +93,6 @@ overflow: hidden;
             .icon {
             height: 34px;
             width: 34px;
-            margin: 0 10px 0 0;
             float: left;
             display: block;
             border-radius: 3px;
@@ -118,8 +111,10 @@ overflow: hidden;
     text-align: center;
     }
 
+
         #top-nav a {
         color: white;
+        display: inline;
         font-size: 2.4em;
         padding: 10px;
         width: 100px;
@@ -830,7 +825,6 @@ overflow: hidden;
             padding: 0;
         }
 
-
         #social-bar {
         display: none;
         }
@@ -852,6 +846,10 @@ overflow: hidden;
             max-width: 200px;
             height: auto;
             }
+
+        #top-nav li:hover {
+
+        }
 
             #wrapper {
                 padding: 0;
