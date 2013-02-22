@@ -498,26 +498,27 @@ overflow: hidden;
         
 
         
-        .map {
-        vertical-align: top;
-        display:inline-block;
-        float: left;
+        .map, #map {
+            height: 405px;
+            width: 720px;
+            margin: 2% auto;
+            display: block;
+            -moz-box-shadow: 1px 1px 20px #ffffff;
+            -webkit-box-shadow: 1px 1px 20px #ffffff;
+            box-shadow: 1px 1px 20px #ffffff;
         }
-        
-        small a{
-        float: left;
-        clear: left;
-        }
+    
         
         .bhilton, #bhilton {
-        max-height: 350px;
+        height: 405px;
+        width: 720px;
         vertical-align: top;
-        margin-left: 15px;
-        }
-
-        .bhilton {
+        -moz-box-shadow: 1px 1px 20px #ffffff;
+        -webkit-box-shadow: 1px 1px 20px #ffffff;
+        box-shadow: 1px 1px 20px #ffffff;
         margin: 10px auto;
         display: block;
+
         }
 
 
@@ -703,14 +704,6 @@ overflow: hidden;
             font-weight: bold;
             }
             
-
-
-            .map {
-            vertical-align: top;
-            display:inline-block;
-            float: left;
-            }
-            
             small a{
             float: left;
             clear: left;
@@ -718,7 +711,6 @@ overflow: hidden;
             
             .bhilton {
             vertical-align: top;
-            margin-left:  15px;
             }
 
      
@@ -790,6 +782,12 @@ overflow: hidden;
      .box-content {
         display: none;
     }
+
+     #map, #bhilton {
+    width: 540px;
+    height: 315px;
+    }
+            
 }
 @media all and (min-width:800px) {
     
@@ -877,7 +875,6 @@ overflow: hidden;
         }
 
         #map {
-            width: 100% !important;
             float: none;
             display: block;
         }
@@ -887,7 +884,24 @@ overflow: hidden;
             width: 100% !important;
             margin: 0 0 15px;
         }
+        #map, #bhilton {
+            width: 100%;
+            height: ;
+            }
+            
+            #y-player {
+                height: 200px;
+                width: 100%;
+            }
     }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+#y-player {
+    max-height: 405px;
+    height: 100%;
+    width: 100%;
+}
+}
 
 
 
