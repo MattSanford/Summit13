@@ -45,18 +45,7 @@
   })();
 
 </script>
-<script type="text/javascript">
-if (document.images) {
-    img1 = new Image();
-    img1.src = "/images/summittalent.jpg";
-    img2 = new Image();
-    img2.src = "images/harriet.gif";
-    img3 = new Image();
-    img3.src = "images/Brightwork Pic.jpg";
-    img4 = new Image();
-    img4.src = "images/CJM_Promo_Pictures/cornelljordan-promopix4.jpg";
-}
-</script>
+
 </head>
 <body>
 <div id="fb-root"></div>
@@ -67,6 +56,18 @@ if (document.images) {
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript">
+if (document.images) {
+    img1 = new Image();
+    img1.src = "/images/348.png";
+    img2 = new Image();
+    img2.src = "/images/summittalent.jpg";
+    img3 = new Image();
+    img3.src = "/images/Transportation.jpg";
+    img4 = new Image();
+    img4.src = "/images/prayer-on-my-knees4.jpg";
+}
+</script>
 <div id="container">
 	<header class="head">
 		<nav id="top-nav">
