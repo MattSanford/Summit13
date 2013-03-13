@@ -167,7 +167,7 @@ if (document.images) {
 			<div class="box-wrapper" id="wrapper">
 				<div class="sm" id="box"><a href="/registration"><h3 class="box-heading">Registration<br/> Information</h3></a></div>
 				<div class="sm" id="box"><a href="http://www3.hilton.com/en/hotels/maryland/hilton-baltimore-BWICCHH/index.html"><h3 class="box-heading">Hotel<br/> Website</h3></a></div>
-				<div class="sm" id="box"><h3 class="box-heading">Volunteer<br/>Opportunities</h3><h5>coming soon</h5></div>
+				<div class="sm" id="box"><a href="/volunteer"><h3 class="box-heading">Volunteer<br/>Opportunities</h3></a></div>
 				<div class="clearing"></div>
 			</div>
 		</div>

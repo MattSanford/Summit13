@@ -520,6 +520,53 @@ overflow: hidden;
         display: block;
 
         }
+/*====================================
+=============Schedule=================
+====================================*/
+    .day {
+        width: 33%;
+        background: url('/images/noisy_grid.png');
+        padding: 0 0 2%;
+        float: left;
+        color: black;
+        text-align: center;
+    }
+
+    .day:nth-child(2) {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+
+    .day h2 {
+        border-bottom: 1px dotted black;
+        margin: 0;
+        padding: 1% 0;
+    }
+
+    .highlight {
+        background: yellow;
+    }
+
+    .hour {
+        height: 50px;
+        border-bottom: 1px solid black;
+  
+    }
+
+    .t-stamp {
+        color: #003366 !important;
+        margin: 5px;
+        float: left;
+
+    }
+
+    .event {
+        margin: 5px;
+    }
+
+    .event.location {
+        margin-left: 10px;
+    }
 
 
         #y-player {
