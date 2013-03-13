@@ -5,6 +5,8 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="/css/normalize.css">
 <link rel="stylesheet"  href="/css/summit.css">
+<?php echo $jqueryLib; ?>
+
 <link href='http://fonts.googleapis.com/css?family=Poiret+One|Raleway:400,300' rel='stylesheet' type='text/css'>
 <!-- Standard iPhone --> 
 <link rel="apple-touch-icon" sizes="57x57" href="IOS-Icons/57x57.png" />
