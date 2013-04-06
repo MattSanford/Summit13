@@ -4,93 +4,99 @@
 <?php include("../main.php"); ?>
 		<div id="content">
 			<div id="schedule">
-				<div class="day" id="friday" data-day="5">
-					<h2>Friday</h2>
-					<section class="hour" data-time="8am" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="9am" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="10am" data-event="some event"data-location="location">
-					</section>
-					<section class="hour" data-time="11am" data-event="some event"data-location="location">
-					</section>
-					<section class="hour" data-time="12pm" data-event="some event"data-location="location">
-					</section>
-					<section class="hour" data-time="1pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="2pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="3pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="4pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="5pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="6pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="7pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="8pm" data-event="some event" data-location="location">
-					</section>
-				</div>
-				<div class="day" id="saturday" data-day="6">
-					<h2>Saturday</h2>
-					<section class="hour" data-time="8am" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="9am" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="10am" data-event="some event"data-location="location">
-					</section>
-					<section class="hour" data-time="11am" data-event="some event"data-location="location">
-					</section>
-					<section class="hour" data-time="12pm" data-event="some event"data-location="location">
-					</section>
-					<section class="hour" data-time="1pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="2pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="3pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="4pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="5pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="6pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="7pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="8pm" data-event="some event" data-location="location">
-					</section>
-				</div>
-				<div class="day" id="sunday" data-day="0">
-					<h2 class="highlight">Sunday</h2>
-					<section class="hour" data-time="8am" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="9am" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="10am" data-event="some event"data-location="location">
-					</section>
-					<section class="hour" data-time="11am" data-event="some event"data-location="location">
-					</section>
-					<section class="hour" data-time="12pm" data-event="some event"data-location="location">
-					</section>
-					<section class="hour" data-time="1pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="2pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="3pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="4pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="5pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="6pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="7pm" data-event="some event" data-location="location">
-					</section>
-					<section class="hour" data-time="8pm" data-event="some event" data-location="location">
-					</section>
-				</div>
+				<table>
+					<tbody>
+					<tr class="day" id="friday" data-day="5">
+						<td><h2>Friday</h2></td>
+						<td class="hour" data-time="8am" data-event="some event" data-location="location">
+						</td>
+						<td class="hour" data-time="9am" data-event="some event" data-location="location">
+						</td>
+						<td class="hour" data-time="10am" data-event="some event"data-location="location">
+						</td>
+						<td class="hour" data-time="11am" data-event="some event"data-location="location">
+						</td>
+						<td class="hour" data-time="12pm" data-event="some event"data-location="location">
+						</td>
+						<td class="hour" data-time="1pm" data-event="some event" data-location="location">
+						</td>
+						<td class="hour" data-time="2pm" data-event="some event" data-location="location">
+						</td>
+						<td class="hour" data-time="3pm" data-event="some event" data-location="location">
+						</td>
+						<td class="hour" data-time="4pm" data-event="some event" data-location="location">
+						</td>
+						<td class="hour" data-time="5pm" data-event="some event" data-location="location">
+						</td>
+						<td class="hour" data-time="6pm" data-event="some event" data-location="location">
+						</td>
+						<td class="hour" data-time="7pm" data-event="some event" data-location="location">
+						</td>
+						<td class="hour" data-time="8pm" data-event="some event" data-location="location">
+						</td>
+					</tr>
+				<tr class="day" id="saturday" data-day="6">
+					<td><h2>Saturday</h2></td>
+					<td class="hour" data-time="8am" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="9am" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="10am" data-event="some event"data-location="location">
+					</td>
+					<td class="hour" data-time="11am" data-event="some event"data-location="location">
+					</td>
+					<td class="hour" data-time="12pm" data-event="some event"data-location="location">
+					</td>
+					<td class="hour" data-time="1pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="2pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="3pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="4pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="5pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="6pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="7pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="8pm" data-event="some event" data-location="location">
+					</td>
+				</tr>
+				<tr class="day" id="sunday" data-day="0">
+					<td><h2 class="highlight">Sunday</h2></td>
+					<td class="hour" data-time="8am" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="9am" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="10am" data-event="some event"data-location="location">
+					</td>
+					<td class="hour" data-time="11am" data-event="some event"data-location="location">
+					</td>
+					<td class="hour" data-time="12pm" data-event="some event"data-location="location">
+					</td>
+					<td class="hour" data-time="1pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="2pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="3pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="4pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="5pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="6pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="7pm" data-event="some event" data-location="location">
+					</td>
+					<td class="hour" data-time="8pm" data-event="some event" data-location="location">
+					</td>
+				</tr>
+				</tbody>
+				</table>
+
+
 				<div class="clearing"></div>
 			</div>
 		</div>

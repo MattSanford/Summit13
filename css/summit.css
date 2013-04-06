@@ -8,6 +8,17 @@ height: 100%;
 font-size: 62.5%;
 }
 
+table {
+    width: 100%;
+}
+tr {
+    text-align: center;
+
+}
+td {
+    display: block;
+}
+
 h2,
 h3,
 h4,
@@ -93,17 +104,15 @@ overflow: hidden;
             .icon {
             height: 34px;
             width: 34px;
-            float: left;
             display: block;
             border-radius: 3px;
             }
     
     
     #top-nav {
-    max-width: 870px;
+    width: 450px;
     opacity: 0.95;
     margin: 0 auto 0 auto;
-    list-style: none;
     display: block;
     border-radius: 10px;
     padding: 10px 25px;
@@ -140,12 +149,14 @@ overflow: hidden;
 
 
     #sidebar-left {
-    float: left;
     display: block;
     vertical-align: top;
-    width: 220px;
-    margin: 0 0 15px 2.222222%;
+    margin:  0 30%;
     border-radius: 5px;
+    }
+
+    #sidebar-left a{
+        text-decoration: none;
     }
 
         #sidebar-left h2 {
@@ -156,43 +167,18 @@ overflow: hidden;
         font-size: 1em;
     }
 
-        #checkout-nav {
-        opacity: 1;
-        text-decoration: none;
-        display: block;
-        margin: 0 0 25px 0;
-        padding:0;
-        font-family: 'Poiret One', cursive;
-        }
+    #button-wrapper {
+        margin: 2% auto;
+    }
 
-        #checkout-nav a {
-            text-decoration: none;
-        }
-        
-        .countdown {
-        margin-top: -10px;
-        margin-left: -10px;
-        }
-        
-        #checkout-nav li {
-        height: 50px;
+    #facebook, #twitter {
         width: 200px;
-        border: 1px solid black;
+        margin: 1% auto;
+        background: white;
+        opacity: 0.8;
         border-radius: 5px;
-        margin-top: 15px;
-        display: block;
-        padding: 10px 0 0 10px;
-        background-color: white;
-        opacity: 0.9;
-        }
-        
-        #checkout-nav li:hover {
-        opacity: 1;
-        }       
-        
-        #checkout-nav li:nth-child(1) {
-        padding: 5px 5px 7px 5px;
-        }
+        padding: 10px;
+    }
             
             #facebook p, #facebook h2{
             color: #3B5998; 
@@ -260,16 +246,14 @@ overflow: hidden;
 
     #main {
     background-image: url("/images/gray-jean.png"); 
-    margin: 0 2% 0 3%;
-    max-width: 900px;
-    width: 70%;
+    width: 80%;
+    margin: 2% auto;
     display: block;
-    float: left;
     -webkit-box-shadow: 0px 0px 23px rgba(50, 50, 50, 1);
     -moz-box-shadow:    0px 0px 23px rgba(50, 50, 50, 1);
     box-shadow:         0px 0px 23px rgba(50, 50, 50, 1);
     border-radius: 5px;
-        padding: 10px;
+    padding: 10px;
     }
 
     #main a{
@@ -290,6 +274,14 @@ overflow: hidden;
     o-boder-radius: 3px;
     border-top: 1px dotted black;
     border-bottom: 1px dotted black;
+    }
+
+    .content-section {
+        height: 300px;
+        background-image: url("/images/pattern-5yxh.png");
+        border: 1px solid white;
+        padding: 0 15px; 
+
     }
 
     @media all and (min-width: 1500px) {

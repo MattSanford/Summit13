@@ -71,9 +71,6 @@ if (document.images) {
 <div id="container">
 	<header class="head">
 		<nav id="top-nav">
-			<a href="/">Home</a>
-			<a href="/Location">Location</a>
-			<a href="/Registration">Registration</a>
 			<a href="/Schedule">Schedule</a>
 			<a href="/Things-To-Do">Things To Do</a>
 			<a href="/Leaders">For Leaders</a>			
@@ -81,20 +78,21 @@ if (document.images) {
 	</header>
 	<div class="wrapper">
 		<div id="sidebar-left">
-			<ul id="checkout-nav">
-				<a href="http://www.facebook.com/FoursquareSummitEast"target="blank"><li id="facebook">
+			<div id="button-wrapper">
+				<div id="facebook">
 					<img class="icon" src="images/f_logo.png" />
 					<h2>Facebook</h2>
-					<p>Check out our page!</p>
-				</li></a>
-				<a href="http://twitter.com/SummitEast13" target="blank"><li id="twitter">
+<a href="http://www.facebook.com/FoursquareSummitEast"target="blank"><p>Check out our page!</p></a>
+				</div>
+				<div id="twitter">
 					<img class="icon" src="images/twitter-bird-white-on-blue.png" />				
 					<h2>Twitter</h2>
-					<p>Follow Us on Twitter!</p>
-				</li></a>
-				<li id="countdown">
+					<a href="http://twitter.com/SummitEast13" target="blank"><p>Follow Us on Twitter!</p></a>
+				</div>
+			</div>
+				<div id="countdown" style="display: none;">
 					<iframe class="countdown" src="http://free.timeanddate.com/countdown/i39wpchv/n419/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cacf90/cpc000/pct/tcfff/fs100/szw320/szh135/tatCountdown%20to%20Summit/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2013-04-13T00:00:00/pa5" frameborder="0" width="207" height="59"></iframe>
-				</li>
+				</div>
 			</ul>
 			<div class="t">
 				<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
@@ -138,36 +136,37 @@ if (document.images) {
 		</div>
 		<div class="content">
 			<div class="box-wrapper">
-				<div class="box">
-					<h3 class="box-heading">Video Contest</h3>
-					<img id="imageID" class="box-pic" src="/images/348.png">
-					<button class="button" id="hide-button" onclick="showstuff('v-c'); hidestuff('mad'); hidestuff('trans'); hidestuff('prayer');">Click</button>														
-					<div class="box-content" id="v-c"><p>Get your group together and make a video letting us know why you are the most excited about the Imagine Summit! <br/><a href="/Video-Contest"> Click Here</a></p></div>
-				</div>
-				<div class="box">
-					<h3 class="box-heading">Mid-Atlantic's Got Talent</h3>
-					<img id="imageID" class="box-pic" src="/images/summittalent.jpg">
-					<button class="button" id="hide-button" onclick="showstuff('mad'); hidestuff('v-c'); hidestuff('trans'); hidestuff('prayer');">Click</button>														
-					<div class="box-content" id="mad"><p>Think you've got talent? We want to see it! Click the link for more info! <a href="/Mid-Atlantic's-Got-Talent/">Click Here.</a></p></div>
-				</div>
-				 <div class="box right">
-					<h3 class="box-heading">Transportation</h3>
-					<img id="imageID" class="box-pic" src="/images/Transportation.jpg">
-					<button class="button" id="hide-button" onclick="showstuff('trans'); hidestuff('mad'); hidestuff('v-c'); hidestuff('prayer');">Click</button>														
-					<div class="box-content" id="trans"><p>Getting there is part of the fun! Let us help you get to Summit! <a href="/Transportation">Click Here</a></p></div>
-				</div>
-				<div class="box right">
+				<div class="box right" style="display: none;">
 					<h3 class="box-heading">Prayer</h3>
 					<img id="imageID" class="box-pic" src="/images/prayer-on-my-knees4.jpg">
 					<button class="button" id="hide-button" onclick="showstuff('prayer'); hidestuff('mad'); hidestuff('trans'); hidestuff('v-c');">click</button>														
-					<div class="box-content" id="prayer"><p>Imagine Summit Paryer points. Please pray for us! <a href="/Prayer/">Click Here</a></p></div>
+					<div class="box-content" id="prayer"><p>Imagine Summit Prayer points. Please pray for us! <a href="/Prayer/">Click Here</a></p></div>
 				</div>
+				<section class="content-section">
+					<h1>section</h1>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+				</section>
+				<section class="content-section">
+					<h1>section</h1>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+				</section>
+				<section class="content-section">
+					<h1>section</h1>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+				</section>
+				<section class="content-section">
+					<h1>Contact Info:</h1>
+					<h2>Lesli Klingenmeier:</h2>
+					<h3>123-456-7890</h3>
+					<h2>Melanie Fortner:</h2>
+					<h3>123-456-7890</h3>
+					<h2>Somebody Important</h2>
+					<h3>123-456-7890</h3>
+				</section>
 				<div class="clearing"></div>
 			</div>
-			<div class="box-wrapper" id="wrapper">
-				<div class="sm" id="box"><a href="/registration"><h3 class="box-heading">Registration<br/> Information</h3></a></div>
+			<div class="box-wrapper" id="wrapper" style="display: none;">
 				<div class="sm" id="box"><a href="http://www3.hilton.com/en/hotels/maryland/hilton-baltimore-BWICCHH/index.html"><h3 class="box-heading">Hotel<br/> Website</h3></a></div>
-				<div class="sm" id="box"><a href="/volunteer"><h3 class="box-heading">Volunteer<br/>Opportunities</h3></a></div>
 				<div class="clearing"></div>
 			</div>
 		</div>
