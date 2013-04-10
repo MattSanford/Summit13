@@ -68,13 +68,38 @@ if (document.images) {
     img4.src = "/images/prayer-on-my-knees4.jpg";
 }
 </script>
+<!-- ===============================-->
+<!-- =============PHP===============-->
+<!-- ===============================-->
+<?php
+date_default_timezone_set('America/New_York');
+$target = mktime(0, 0, 0, 4, 12, 2013) ;
+
+$today = time () ;
+
+$difference =($target-$today) ;
+
+$days =(int) ($difference/86400) ;
+
+$hours =(int) ($difference/3600) ;
+
+
+?>
+<!-- ===============================-->
+<!-- =============END===============-->
+<!-- ===============================-->
 <div id="container">
 	<header class="head">
 		<nav id="top-nav">
+			<a href="/">Home</a>
 			<a href="/Schedule">Schedule</a>
 			<a href="/Things-To-Do">Things To Do</a>
 			<a href="/Leaders">For Leaders</a>			
 		</nav>
+		<?php
+print "Our event will occur in $days days";
+print "Our event will occur in $hours hours"
+		?>
 	</header>
 	<div class="wrapper">
 		<div id="sidebar-left">
